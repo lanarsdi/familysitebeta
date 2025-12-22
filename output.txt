@@ -1,0 +1,459 @@
+<img src="thumbnails/SCN_20251124_135533.jpg" data-full="images/SCN_20251124_135533.jpg" alt="" class="thumb" data-info=[Шахбат,Алибекова,Клин] loading="lazy">
+<img src="thumbnails/SCN_20251124_145726.jpg" data-full="images/SCN_20251124_145726.jpg" alt="" class="thumb" data-info=[Кабират,Алибекова,Махачкала] loading="lazy">
+<img src="thumbnails/SCN_20251124_150416.jpg" data-full="images/SCN_20251124_150416.jpg" alt="" class="thumb" data-info=[Абдулманап,Алибеков] loading="lazy">
+<img src="thumbnails/SCN_20251124_150917.jpg" data-full="images/SCN_20251124_150917.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_151511.jpg" data-full="images/SCN_20251124_151511.jpg" alt="На память Шахбат от Аминат. 23/VI 77г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_151923.jpg" data-full="images/SCN_20251124_151923.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_152222.jpg" data-full="images/SCN_20251124_152222.jpg" alt="01.11.79. 5-й курс" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_152838.jpg" data-full="images/SCN_20251124_152838.jpg" alt="8.06.85" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_153047.jpg" data-full="images/SCN_20251124_153047.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_153254.jpg" data-full="images/SCN_20251124_153254.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_153451.jpg" data-full="images/SCN_20251124_153451.jpg" alt="10 кл. 1975. В лесу после последнего звонка" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_153751.jpg" data-full="images/SCN_20251124_153751.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_153957.jpg" data-full="images/SCN_20251124_153957.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_154205.jpg" data-full="images/SCN_20251124_154205.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_154437.jpg" data-full="images/SCN_20251124_154437.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_154627.jpg" data-full="images/SCN_20251124_154627.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_154812.jpg" data-full="images/SCN_20251124_154812.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_155004.jpg" data-full="images/SCN_20251124_155004.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_155210.jpg" data-full="images/SCN_20251124_155210.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_155405.jpg" data-full="images/SCN_20251124_155405.jpg" alt="8 &quot;а&quot; кл 1973 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_155556.jpg" data-full="images/SCN_20251124_155556.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_155814.jpg" data-full="images/SCN_20251124_155814.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_160003.jpg" data-full="images/SCN_20251124_160003.jpg" alt="Руслан в Москве. 1977 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_160205.jpg" data-full="images/SCN_20251124_160205.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_160355.jpg" data-full="images/SCN_20251124_160355.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_160535.jpg" data-full="images/SCN_20251124_160535.jpg" alt="9 класс 1973-74 гг." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_160936.jpg" data-full="images/SCN_20251124_160936.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_161202.jpg" data-full="images/SCN_20251124_161202.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_161358.jpg" data-full="images/SCN_20251124_161358.jpg" alt="1973 год. 9 класс. На память дорогой подруге Шахбат от Аминат" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_161626.jpg" data-full="images/SCN_20251124_161626.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_161813.jpg" data-full="images/SCN_20251124_161813.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_162001.jpg" data-full="images/SCN_20251124_162001.jpg" alt="Фото снято 26/II - 72г. 7a класс. Подруги Гуля+Соня+Зара+Катя+Дина+Аня+Мая+Мина+Шахбат" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_162526.jpg" data-full="images/SCN_20251124_162526.jpg" alt="Память в годы учебы в 9-ом кл. Группа девочек нашего класса. Фото снято в октябре 1973 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_162713.jpg" data-full="images/SCN_20251124_162713.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_162949.jpg" data-full="images/SCN_20251124_162949.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_163205.jpg" data-full="images/SCN_20251124_163205.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_163350.jpg" data-full="images/SCN_20251124_163350.jpg" alt="9 кл." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_163551.jpg" data-full="images/SCN_20251124_163551.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_163748.jpg" data-full="images/SCN_20251124_163748.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_163946.jpg" data-full="images/SCN_20251124_163946.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_164131.jpg" data-full="images/SCN_20251124_164131.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_164321.jpg" data-full="images/SCN_20251124_164321.jpg" alt="5 курс ДМИ 1979 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_164530.jpg" data-full="images/SCN_20251124_164530.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_164717.jpg" data-full="images/SCN_20251124_164717.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_164912.jpg" data-full="images/SCN_20251124_164912.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_165049.jpg" data-full="images/SCN_20251124_165049.jpg" alt="28.VIII.83 год Эльмира. 22.XI.57 день рожденья" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_165346.jpg" data-full="images/SCN_20251124_165346.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_165530.jpg" data-full="images/SCN_20251124_165530.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_165723.jpg" data-full="images/SCN_20251124_165723.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_165913.jpg" data-full="images/SCN_20251124_165913.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_170121.jpg" data-full="images/SCN_20251124_170121.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_170305.jpg" data-full="images/SCN_20251124_170305.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_170449.jpg" data-full="images/SCN_20251124_170449.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_170645.jpg" data-full="images/SCN_20251124_170645.jpg" alt="Я умру от горя, если ты меня забудешь! 15.IV.77." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_170903.jpg" data-full="images/SCN_20251124_170903.jpg" alt="Шаляля! Пусть на память тебе останется неподвижная морда моя" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_171050.jpg" data-full="images/SCN_20251124_171050.jpg" alt="Шахбатке от Клары. 1979г. конец 4 курса, перед гос.экзаменом по медицине" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_200327.jpg" data-full="images/SCN_20251124_200327.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_200538.jpg" data-full="images/SCN_20251124_200538.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_200838.jpg" data-full="images/SCN_20251124_200838.jpg" alt="20.12.92 праздник  &quot;Прощание с букварем&quot; " class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_201119.jpg" data-full="images/SCN_20251124_201119.jpg" alt="7-го ноября 1978 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_202232.jpg" data-full="images/SCN_20251124_202232.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_203122.jpg" data-full="images/SCN_20251124_203122.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_203249.jpg" data-full="images/SCN_20251124_203249.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_203409.jpg" data-full="images/SCN_20251124_203409.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_203633.jpg" data-full="images/SCN_20251124_203633.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_203815.jpg" data-full="images/SCN_20251124_203815.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_203919.jpg" data-full="images/SCN_20251124_203919.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204023.jpg" data-full="images/SCN_20251124_204023.jpg" alt="5.VI.85. Батуми" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204135.jpg" data-full="images/SCN_20251124_204135.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204254.jpg" data-full="images/SCN_20251124_204254.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204408.jpg" data-full="images/SCN_20251124_204408.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204519.jpg" data-full="images/SCN_20251124_204519.jpg" alt="10 кл. 1975" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204650.jpg" data-full="images/SCN_20251124_204650.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204806.jpg" data-full="images/SCN_20251124_204806.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_204919.jpg" data-full="images/SCN_20251124_204919.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251124_205040.jpg" data-full="images/SCN_20251124_205040.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_111824.jpg" data-full="images/SCN_20251125_111824.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_112006.jpg" data-full="images/SCN_20251125_112006.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_120959.jpg" data-full="images/SCN_20251125_120959.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121123.jpg" data-full="images/SCN_20251125_121123.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121237.jpg" data-full="images/SCN_20251125_121237.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121348.jpg" data-full="images/SCN_20251125_121348.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121517.jpg" data-full="images/SCN_20251125_121517.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121637.jpg" data-full="images/SCN_20251125_121637.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121754.jpg" data-full="images/SCN_20251125_121754.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_121913.jpg" data-full="images/SCN_20251125_121913.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122025.jpg" data-full="images/SCN_20251125_122025.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122151.jpg" data-full="images/SCN_20251125_122151.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122328.jpg" data-full="images/SCN_20251125_122328.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122451.jpg" data-full="images/SCN_20251125_122451.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122614.jpg" data-full="images/SCN_20251125_122614.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122729.jpg" data-full="images/SCN_20251125_122729.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_122849.jpg" data-full="images/SCN_20251125_122849.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_123424.jpg" data-full="images/SCN_20251125_123424.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_123549.jpg" data-full="images/SCN_20251125_123549.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_123710.jpg" data-full="images/SCN_20251125_123710.jpg" alt="Одесса август 1973(4)" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_124739.jpg" data-full="images/SCN_20251125_124739.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_124907.jpg" data-full="images/SCN_20251125_124907.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_125017.jpg" data-full="images/SCN_20251125_125017.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_125130.jpg" data-full="images/SCN_20251125_125130.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_125245.jpg" data-full="images/SCN_20251125_125245.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_125401.jpg" data-full="images/SCN_20251125_125401.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_125517.jpg" data-full="images/SCN_20251125_125517.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_125628.jpg" data-full="images/SCN_20251125_125628.jpg" alt="На память Руслану 07.12.1976 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130009.jpg" data-full="images/SCN_20251125_130009.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130135.jpg" data-full="images/SCN_20251125_130135.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130253.jpg" data-full="images/SCN_20251125_130253.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130406.jpg" data-full="images/SCN_20251125_130406.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130529.jpg" data-full="images/SCN_20251125_130529.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130648.jpg" data-full="images/SCN_20251125_130648.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130814.jpg" data-full="images/SCN_20251125_130814.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_130925.jpg" data-full="images/SCN_20251125_130925.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131038.jpg" data-full="images/SCN_20251125_131038.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131150.jpg" data-full="images/SCN_20251125_131150.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131308.jpg" data-full="images/SCN_20251125_131308.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131433.jpg" data-full="images/SCN_20251125_131433.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131545.jpg" data-full="images/SCN_20251125_131545.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131705.jpg" data-full="images/SCN_20251125_131705.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131821.jpg" data-full="images/SCN_20251125_131821.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_131935.jpg" data-full="images/SCN_20251125_131935.jpg" alt="10 кл. 1975 г. последний звонок 24 мая." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132102.jpg" data-full="images/SCN_20251125_132102.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132225.jpg" data-full="images/SCN_20251125_132225.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132345.jpg" data-full="images/SCN_20251125_132345.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132500.jpg" data-full="images/SCN_20251125_132500.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132625.jpg" data-full="images/SCN_20251125_132625.jpg" alt="31 марта 1979 г. 4 курс эр фак. Лариса.Ш.Белка, Клара. На практическом занятии по криминалистике в парке." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132744.jpg" data-full="images/SCN_20251125_132744.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_132901.jpg" data-full="images/SCN_20251125_132901.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133033.jpg" data-full="images/SCN_20251125_133033.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133158.jpg" data-full="images/SCN_20251125_133158.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133321.jpg" data-full="images/SCN_20251125_133321.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133439.jpg" data-full="images/SCN_20251125_133439.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133549.jpg" data-full="images/SCN_20251125_133549.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133706.jpg" data-full="images/SCN_20251125_133706.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_133948.jpg" data-full="images/SCN_20251125_133948.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134104.jpg" data-full="images/SCN_20251125_134104.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134314.jpg" data-full="images/SCN_20251125_134314.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134430.jpg" data-full="images/SCN_20251125_134430.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134546.jpg" data-full="images/SCN_20251125_134546.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134709.jpg" data-full="images/SCN_20251125_134709.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134835.jpg" data-full="images/SCN_20251125_134835.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_134957.jpg" data-full="images/SCN_20251125_134957.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135116.jpg" data-full="images/SCN_20251125_135116.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135241.jpg" data-full="images/SCN_20251125_135241.jpg" alt="На память Руслану от Керима." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135404.jpg" data-full="images/SCN_20251125_135404.jpg" alt="А это перед Институтом. Высокий это брат Зухрудина. Около него Зухружин(Захар) и Коля." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135525.jpg" data-full="images/SCN_20251125_135525.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135646.jpg" data-full="images/SCN_20251125_135646.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135801.jpg" data-full="images/SCN_20251125_135801.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_135939.jpg" data-full="images/SCN_20251125_135939.jpg" alt="Снято 8-ого мая 1971 г 6 &quot;а&quot; кл." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140110.jpg" data-full="images/SCN_20251125_140110.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140222.jpg" data-full="images/SCN_20251125_140222.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140335.jpg" data-full="images/SCN_20251125_140335.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140505.jpg" data-full="images/SCN_20251125_140505.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140622.jpg" data-full="images/SCN_20251125_140622.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140734.jpg" data-full="images/SCN_20251125_140734.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_140912.jpg" data-full="images/SCN_20251125_140912.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141035.jpg" data-full="images/SCN_20251125_141035.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141223.jpg" data-full="images/SCN_20251125_141223.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141404.jpg" data-full="images/SCN_20251125_141404.jpg" alt="На память Шахбат от Исмаила в дни службы в Армии. Крым Евпатория" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141525.jpg" data-full="images/SCN_20251125_141525.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141643.jpg" data-full="images/SCN_20251125_141643.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141757.jpg" data-full="images/SCN_20251125_141757.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_141959.jpg" data-full="images/SCN_20251125_141959.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_142129.jpg" data-full="images/SCN_20251125_142129.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_142322.jpg" data-full="images/SCN_20251125_142322.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_142447.jpg" data-full="images/SCN_20251125_142447.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_142615.jpg" data-full="images/SCN_20251125_142615.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_142739.jpg" data-full="images/SCN_20251125_142739.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_142853.jpg" data-full="images/SCN_20251125_142853.jpg" alt="У Могилы Неизвестному Солдату. Москва 1 сентября 1983 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_143021.jpg" data-full="images/SCN_20251125_143021.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_143312.jpg" data-full="images/SCN_20251125_143312.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_143434.jpg" data-full="images/SCN_20251125_143434.jpg" alt="1/VII-28/IX-80 г" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_143612.jpg" data-full="images/SCN_20251125_143612.jpg" alt="РИСХМ 1978г. 26.12." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_143731.jpg" data-full="images/SCN_20251125_143731.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_143902.jpg" data-full="images/SCN_20251125_143902.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144015.jpg" data-full="images/SCN_20251125_144015.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144126.jpg" data-full="images/SCN_20251125_144126.jpg" alt="На память другу Руслану от Анвара III курс РИСХМ" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144244.jpg" data-full="images/SCN_20251125_144244.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144411.jpg" data-full="images/SCN_20251125_144411.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144526.jpg" data-full="images/SCN_20251125_144526.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144652.jpg" data-full="images/SCN_20251125_144652.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144816.jpg" data-full="images/SCN_20251125_144816.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_144946.jpg" data-full="images/SCN_20251125_144946.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_145105.jpg" data-full="images/SCN_20251125_145105.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_145230.jpg" data-full="images/SCN_20251125_145230.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_145412.jpg" data-full="images/SCN_20251125_145412.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_145543.jpg" data-full="images/SCN_20251125_145543.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_145729.jpg" data-full="images/SCN_20251125_145729.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_145856.jpg" data-full="images/SCN_20251125_145856.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_150032.jpg" data-full="images/SCN_20251125_150032.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_150206.jpg" data-full="images/SCN_20251125_150206.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_150343.jpg" data-full="images/SCN_20251125_150343.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_150508.jpg" data-full="images/SCN_20251125_150508.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_150635.jpg" data-full="images/SCN_20251125_150635.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_150755.jpg" data-full="images/SCN_20251125_150755.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251125_151001.jpg" data-full="images/SCN_20251125_151001.jpg" alt="Джимикент 1977 г. IX. 3-й курс во время вручения переходящего красного замени. Передовицы производства по сбору солнечных ягод - Шахбат Манаповна и Кабират Шарапутдиновна - гордость и слава нашей бригады! УРА!!! Общественное порицание зазнайкам и хвастанам лажа у-у-у-у-у-!!! ур-р-а-а!!! 1-0 в мою пользу" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_125905.jpg" data-full="images/SCN_20251126_125905.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130030.jpg" data-full="images/SCN_20251126_130030.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130201.jpg" data-full="images/SCN_20251126_130201.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130310.jpg" data-full="images/SCN_20251126_130310.jpg" alt="9 кл 1973 сентябрь" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130419.jpg" data-full="images/SCN_20251126_130419.jpg" alt="9 кл 1973 сентябрь" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130537.jpg" data-full="images/SCN_20251126_130537.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130712.jpg" data-full="images/SCN_20251126_130712.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_130825.jpg" data-full="images/SCN_20251126_130825.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131006.jpg" data-full="images/SCN_20251126_131006.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131124.jpg" data-full="images/SCN_20251126_131124.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131247.jpg" data-full="images/SCN_20251126_131247.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131408.jpg" data-full="images/SCN_20251126_131408.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131704.jpg" data-full="images/SCN_20251126_131704.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131814.jpg" data-full="images/SCN_20251126_131814.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_131932.jpg" data-full="images/SCN_20251126_131932.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_132050.jpg" data-full="images/SCN_20251126_132050.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_132227.jpg" data-full="images/SCN_20251126_132227.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_132328.jpg" data-full="images/SCN_20251126_132328.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_132456.jpg" data-full="images/SCN_20251126_132456.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_132610.jpg" data-full="images/SCN_20251126_132610.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_132836.jpg" data-full="images/SCN_20251126_132836.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_133034.jpg" data-full="images/SCN_20251126_133034.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_133205.jpg" data-full="images/SCN_20251126_133205.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_133328.jpg" data-full="images/SCN_20251126_133328.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_133649.jpg" data-full="images/SCN_20251126_133649.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_133852.jpg" data-full="images/SCN_20251126_133852.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_134157.jpg" data-full="images/SCN_20251126_134157.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_134609.jpg" data-full="images/SCN_20251126_134609.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_155335.jpg" data-full="images/SCN_20251126_155335.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_172635.jpg" data-full="images/SCN_20251126_172635.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_172909.jpg" data-full="images/SCN_20251126_172909.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_173216.jpg" data-full="images/SCN_20251126_173216.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_173339.jpg" data-full="images/SCN_20251126_173339.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_173507.jpg" data-full="images/SCN_20251126_173507.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_173644.jpg" data-full="images/SCN_20251126_173644.jpg" alt="На долгую вечную память а может на несколько дней это зависит от дружбы от дружбы твоей и моей Руслану от Багавдина 17/XI 75 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_173810.jpg" data-full="images/SCN_20251126_173810.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_173923.jpg" data-full="images/SCN_20251126_173923.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_174103.jpg" data-full="images/SCN_20251126_174103.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_174236.jpg" data-full="images/SCN_20251126_174236.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_174417.jpg" data-full="images/SCN_20251126_174417.jpg" alt="6 &quot;а&quot; кл 1969 г. 17 мая 1975 г. 1976 г. ноябрь" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_174557.jpg" data-full="images/SCN_20251126_174557.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_174712.jpg" data-full="images/SCN_20251126_174712.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_174857.jpg" data-full="images/SCN_20251126_174857.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_175012.jpg" data-full="images/SCN_20251126_175012.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_175128.jpg" data-full="images/SCN_20251126_175128.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_175238.jpg" data-full="images/SCN_20251126_175238.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_175444.jpg" data-full="images/SCN_20251126_175444.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_175717.jpg" data-full="images/SCN_20251126_175717.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_175827.jpg" data-full="images/SCN_20251126_175827.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_180001.jpg" data-full="images/SCN_20251126_180001.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_180131.jpg" data-full="images/SCN_20251126_180131.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_180242.jpg" data-full="images/SCN_20251126_180242.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_181312.jpg" data-full="images/SCN_20251126_181312.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_181431.jpg" data-full="images/SCN_20251126_181431.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_181603.jpg" data-full="images/SCN_20251126_181603.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_181717.jpg" data-full="images/SCN_20251126_181717.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_181831.jpg" data-full="images/SCN_20251126_181831.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_181954.jpg" data-full="images/SCN_20251126_181954.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_182118.jpg" data-full="images/SCN_20251126_182118.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_182253.jpg" data-full="images/SCN_20251126_182253.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_182421.jpg" data-full="images/SCN_20251126_182421.jpg" alt="г. Евпотория - 35." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_182537.jpg" data-full="images/SCN_20251126_182537.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_182656.jpg" data-full="images/SCN_20251126_182656.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_182839.jpg" data-full="images/SCN_20251126_182839.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183023.jpg" data-full="images/SCN_20251126_183023.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183143.jpg" data-full="images/SCN_20251126_183143.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183317.jpg" data-full="images/SCN_20251126_183317.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183501.jpg" data-full="images/SCN_20251126_183501.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183614.jpg" data-full="images/SCN_20251126_183614.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183729.jpg" data-full="images/SCN_20251126_183729.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_183842.jpg" data-full="images/SCN_20251126_183842.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184008.jpg" data-full="images/SCN_20251126_184008.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184146.jpg" data-full="images/SCN_20251126_184146.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184259.jpg" data-full="images/SCN_20251126_184259.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184403.jpg" data-full="images/SCN_20251126_184403.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184534.jpg" data-full="images/SCN_20251126_184534.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184657.jpg" data-full="images/SCN_20251126_184657.jpg" alt="10кл." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_184918.jpg" data-full="images/SCN_20251126_184918.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_185227.jpg" data-full="images/SCN_20251126_185227.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_190716.jpg" data-full="images/SCN_20251126_190716.jpg" alt="23/XII-78г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_190832.jpg" data-full="images/SCN_20251126_190832.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_190948.jpg" data-full="images/SCN_20251126_190948.jpg" alt="На долгую память Акавову Руслану, студенту лучшей группы РисхМа 1978-1979 уч.г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191118.jpg" data-full="images/SCN_20251126_191118.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191228.jpg" data-full="images/SCN_20251126_191228.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191346.jpg" data-full="images/SCN_20251126_191346.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191504.jpg" data-full="images/SCN_20251126_191504.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191613.jpg" data-full="images/SCN_20251126_191613.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191725.jpg" data-full="images/SCN_20251126_191725.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191834.jpg" data-full="images/SCN_20251126_191834.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_191938.jpg" data-full="images/SCN_20251126_191938.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_200441.jpg" data-full="images/SCN_20251126_200441.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_200608.jpg" data-full="images/SCN_20251126_200608.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_201323.jpg" data-full="images/SCN_20251126_201323.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_201534.jpg" data-full="images/SCN_20251126_201534.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_201649.jpg" data-full="images/SCN_20251126_201649.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_201806.jpg" data-full="images/SCN_20251126_201806.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_201942.jpg" data-full="images/SCN_20251126_201942.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202055.jpg" data-full="images/SCN_20251126_202055.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202228.jpg" data-full="images/SCN_20251126_202228.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202337.jpg" data-full="images/SCN_20251126_202337.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202453.jpg" data-full="images/SCN_20251126_202453.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202612.jpg" data-full="images/SCN_20251126_202612.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202728.jpg" data-full="images/SCN_20251126_202728.jpg" alt="1977 сентябрь Джимикент" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_202843.jpg" data-full="images/SCN_20251126_202843.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203006.jpg" data-full="images/SCN_20251126_203006.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203303.jpg" data-full="images/SCN_20251126_203303.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203421.jpg" data-full="images/SCN_20251126_203421.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203540.jpg" data-full="images/SCN_20251126_203540.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203657.jpg" data-full="images/SCN_20251126_203657.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203814.jpg" data-full="images/SCN_20251126_203814.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_203947.jpg" data-full="images/SCN_20251126_203947.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_204306.jpg" data-full="images/SCN_20251126_204306.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_204607.jpg" data-full="images/SCN_20251126_204607.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_204730.jpg" data-full="images/SCN_20251126_204730.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_204842.jpg" data-full="images/SCN_20251126_204842.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205007.jpg" data-full="images/SCN_20251126_205007.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205152.jpg" data-full="images/SCN_20251126_205152.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205310.jpg" data-full="images/SCN_20251126_205310.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205439.jpg" data-full="images/SCN_20251126_205439.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205623.jpg" data-full="images/SCN_20251126_205623.jpg" alt="8кл." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205741.jpg" data-full="images/SCN_20251126_205741.jpg" alt="8 &quot;а&quot; кл. 1972." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_205852.jpg" data-full="images/SCN_20251126_205852.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251126_210011.jpg" data-full="images/SCN_20251126_210011.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_120021.jpg" data-full="images/SCN_20251127_120021.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_120203.jpg" data-full="images/SCN_20251127_120203.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_121604.jpg" data-full="images/SCN_20251127_121604.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_121840.jpg" data-full="images/SCN_20251127_121840.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_122245.jpg" data-full="images/SCN_20251127_122245.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_122358.jpg" data-full="images/SCN_20251127_122358.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_122506.jpg" data-full="images/SCN_20251127_122506.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_122625.jpg" data-full="images/SCN_20251127_122625.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_122727.jpg" data-full="images/SCN_20251127_122727.jpg" alt="Дика, Кумайрат, Шахбат, Михрап, Адильхан. 10 кл. 1975" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_122854.jpg" data-full="images/SCN_20251127_122854.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123007.jpg" data-full="images/SCN_20251127_123007.jpg" alt="Кумай, Шахбат 3/IX-73 год." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123122.jpg" data-full="images/SCN_20251127_123122.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123234.jpg" data-full="images/SCN_20251127_123234.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123344.jpg" data-full="images/SCN_20251127_123344.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123447.jpg" data-full="images/SCN_20251127_123447.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123557.jpg" data-full="images/SCN_20251127_123557.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123718.jpg" data-full="images/SCN_20251127_123718.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123841.jpg" data-full="images/SCN_20251127_123841.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_123952.jpg" data-full="images/SCN_20251127_123952.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_124103.jpg" data-full="images/SCN_20251127_124103.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_124334.jpg" data-full="images/SCN_20251127_124334.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_130721.jpg" data-full="images/SCN_20251127_130721.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_130838.jpg" data-full="images/SCN_20251127_130838.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131008.jpg" data-full="images/SCN_20251127_131008.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131207.jpg" data-full="images/SCN_20251127_131207.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131318.jpg" data-full="images/SCN_20251127_131318.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131514.jpg" data-full="images/SCN_20251127_131514.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131643.jpg" data-full="images/SCN_20251127_131643.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131817.jpg" data-full="images/SCN_20251127_131817.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_131934.jpg" data-full="images/SCN_20251127_131934.jpg" alt="9 кл 1973 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132100.jpg" data-full="images/SCN_20251127_132100.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132219.jpg" data-full="images/SCN_20251127_132219.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132331.jpg" data-full="images/SCN_20251127_132331.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132501.jpg" data-full="images/SCN_20251127_132501.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132617.jpg" data-full="images/SCN_20251127_132617.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132722.jpg" data-full="images/SCN_20251127_132722.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132829.jpg" data-full="images/SCN_20251127_132829.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_132948.jpg" data-full="images/SCN_20251127_132948.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133115.jpg" data-full="images/SCN_20251127_133115.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133251.jpg" data-full="images/SCN_20251127_133251.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133421.jpg" data-full="images/SCN_20251127_133421.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133548.jpg" data-full="images/SCN_20251127_133548.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133659.jpg" data-full="images/SCN_20251127_133659.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133814.jpg" data-full="images/SCN_20251127_133814.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_133928.jpg" data-full="images/SCN_20251127_133928.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134107.jpg" data-full="images/SCN_20251127_134107.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134213.jpg" data-full="images/SCN_20251127_134213.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134327.jpg" data-full="images/SCN_20251127_134327.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134430.jpg" data-full="images/SCN_20251127_134430.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134537.jpg" data-full="images/SCN_20251127_134537.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134652.jpg" data-full="images/SCN_20251127_134652.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134756.jpg" data-full="images/SCN_20251127_134756.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_134906.jpg" data-full="images/SCN_20251127_134906.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135026.jpg" data-full="images/SCN_20251127_135026.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135132.jpg" data-full="images/SCN_20251127_135132.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135247.jpg" data-full="images/SCN_20251127_135247.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135359.jpg" data-full="images/SCN_20251127_135359.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135509.jpg" data-full="images/SCN_20251127_135509.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135643.jpg" data-full="images/SCN_20251127_135643.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135756.jpg" data-full="images/SCN_20251127_135756.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_135923.jpg" data-full="images/SCN_20251127_135923.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_140041.jpg" data-full="images/SCN_20251127_140041.jpg" alt="Это мы перед институтом. + - Каларбек - - Зухрудин." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_203935.jpg" data-full="images/SCN_20251127_203935.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204038.jpg" data-full="images/SCN_20251127_204038.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204142.jpg" data-full="images/SCN_20251127_204142.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204242.jpg" data-full="images/SCN_20251127_204242.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204348.jpg" data-full="images/SCN_20251127_204348.jpg" alt="Руслану от Багавдина." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204459.jpg" data-full="images/SCN_20251127_204459.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204614.jpg" data-full="images/SCN_20251127_204614.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204724.jpg" data-full="images/SCN_20251127_204724.jpg" alt="18/IV-76г. Марш-бросок. Краснослободск. Каширский Н.,Жигачёв А., Хохлова Ш., Карманов И., Ханакаев М., Шурак А., Шевцов А." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_204849.jpg" data-full="images/SCN_20251127_204849.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205008.jpg" data-full="images/SCN_20251127_205008.jpg" alt="Жанбаживге Айнадан эсделикге 2-курс 1980й" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205259.jpg" data-full="images/SCN_20251127_205259.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205409.jpg" data-full="images/SCN_20251127_205409.jpg" alt="1985 сентябрь" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205510.jpg" data-full="images/SCN_20251127_205510.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205612.jpg" data-full="images/SCN_20251127_205612.jpg" alt="На память Шахбатке от Румины" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205720.jpg" data-full="images/SCN_20251127_205720.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205828.jpg" data-full="images/SCN_20251127_205828.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_205944.jpg" data-full="images/SCN_20251127_205944.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210050.jpg" data-full="images/SCN_20251127_210050.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210159.jpg" data-full="images/SCN_20251127_210159.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210309.jpg" data-full="images/SCN_20251127_210309.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210417.jpg" data-full="images/SCN_20251127_210417.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210527.jpg" data-full="images/SCN_20251127_210527.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210638.jpg" data-full="images/SCN_20251127_210638.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210805.jpg" data-full="images/SCN_20251127_210805.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_210937.jpg" data-full="images/SCN_20251127_210937.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211052.jpg" data-full="images/SCN_20251127_211052.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211206.jpg" data-full="images/SCN_20251127_211206.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211334.jpg" data-full="images/SCN_20251127_211334.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211447.jpg" data-full="images/SCN_20251127_211447.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211614.jpg" data-full="images/SCN_20251127_211614.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211724.jpg" data-full="images/SCN_20251127_211724.jpg" alt="Белка, Лариса, Шахбат, Клара, Мирза. 1978 г. 4-й курс. ауд.70.1." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211828.jpg" data-full="images/SCN_20251127_211828.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_211936.jpg" data-full="images/SCN_20251127_211936.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_212043.jpg" data-full="images/SCN_20251127_212043.jpg" alt="8.06.85" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_212317.jpg" data-full="images/SCN_20251127_212317.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_212501.jpg" data-full="images/SCN_20251127_212501.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_213926.jpg" data-full="images/SCN_20251127_213926.jpg" alt="Милой Шахбат на память от Эльмиры в первые месяцы жизни в Салтозеро 12/XI-1983 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_214040.jpg" data-full="images/SCN_20251127_214040.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_214153.jpg" data-full="images/SCN_20251127_214153.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_214315.jpg" data-full="images/SCN_20251127_214315.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215105.jpg" data-full="images/SCN_20251127_215105.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215227.jpg" data-full="images/SCN_20251127_215227.jpg" alt="9 кл." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215334.jpg" data-full="images/SCN_20251127_215334.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215441.jpg" data-full="images/SCN_20251127_215441.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215552.jpg" data-full="images/SCN_20251127_215552.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215705.jpg" data-full="images/SCN_20251127_215705.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215827.jpg" data-full="images/SCN_20251127_215827.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_215951.jpg" data-full="images/SCN_20251127_215951.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_220103.jpg" data-full="images/SCN_20251127_220103.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_220222.jpg" data-full="images/SCN_20251127_220222.jpg" alt="1978 г. июль." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_220340.jpg" data-full="images/SCN_20251127_220340.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_220512.jpg" data-full="images/SCN_20251127_220512.jpg" alt="9кл" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_220626.jpg" data-full="images/SCN_20251127_220626.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_220748.jpg" data-full="images/SCN_20251127_220748.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_221213.jpg" data-full="images/SCN_20251127_221213.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_221319.jpg" data-full="images/SCN_20251127_221319.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_221546.jpg" data-full="images/SCN_20251127_221546.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_221654.jpg" data-full="images/SCN_20251127_221654.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_221805.jpg" data-full="images/SCN_20251127_221805.jpg" alt="1975 г. 10 кл. После последнего звонка" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_221925.jpg" data-full="images/SCN_20251127_221925.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_222045.jpg" data-full="images/SCN_20251127_222045.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_222203.jpg" data-full="images/SCN_20251127_222203.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251127_222325.jpg" data-full="images/SCN_20251127_222325.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_140723.jpg" data-full="images/SCN_20251128_140723.jpg" alt="1973 V-7 Девочки 8 &quot;а&quot; кл. " class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_140933.jpg" data-full="images/SCN_20251128_140933.jpg" alt="8 &quot;а&quot; кл. 1973 год учащиеся 8 &quot;а&quot; кл. " class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_141146.jpg" data-full="images/SCN_20251128_141146.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_141338.jpg" data-full="images/SCN_20251128_141338.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_141543.jpg" data-full="images/SCN_20251128_141543.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_141754.jpg" data-full="images/SCN_20251128_141754.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_141950.jpg" data-full="images/SCN_20251128_141950.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_142203.jpg" data-full="images/SCN_20251128_142203.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_142355.jpg" data-full="images/SCN_20251128_142355.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_142552.jpg" data-full="images/SCN_20251128_142552.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_142856.jpg" data-full="images/SCN_20251128_142856.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_143054.jpg" data-full="images/SCN_20251128_143054.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_143243.jpg" data-full="images/SCN_20251128_143243.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_143451.jpg" data-full="images/SCN_20251128_143451.jpg" alt="" class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_143654.jpg" data-full="images/SCN_20251128_143654.jpg" alt="Память пребывания на курорте Ессентуки 25/IX-84 года с земляком Иваном Николаевичем Бондаренко 27/IX-84 г." class="thumb" data-info=[] loading="lazy">
+<img src="thumbnails/SCN_20251128_151527.jpg" data-full="images/SCN_20251128_151527.jpg" alt="" class="thumb" data-info=[] loading="lazy">

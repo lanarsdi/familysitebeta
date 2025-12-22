@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Семейный Сайт</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(120deg, #f5e4c3 0%, #f9faf2 80%);
+      font-family: 'Montserrat', 'Raleway', Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: rgba(255,255,255,0.97);
+      box-shadow: 0 8px 32px 0 rgba(82, 77, 47, 0.17);
+      border-radius: 24px;
+      padding: 48px 38px;
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 2.3rem;
+      margin-bottom: 32px;
+      color: #835622;
+      letter-spacing: 1px;
+      text-shadow: 0 2px 12px #eed19e40;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 20px;
+    }
+    .nav-link {
+      text-decoration: none;
+      padding: 18px 0;
+      border-radius: 16px;
+      background: linear-gradient(90deg, #fee6b5, #f9d088 90%);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #634612;
+      transition: box-shadow 0.2s, background 0.3s, color 0.2s;
+      box-shadow: 0 2px 6px #ecd9a080;
+      letter-spacing: 0.1em;
+      outline: none;
+    }
+    .nav-link:hover, .nav-link:focus {
+      background: linear-gradient(90deg, #ffe5b2 0%, #ffe8c1 100%);
+      color: #b67d21;
+      box-shadow: 0 4px 20px #cab57a60;
+    }
+    .footer {
+      margin-top: 38px;
+      color: #a98e68;
+      font-size: 0.93rem;
+      letter-spacing: 0.1em;
+      opacity: 0.82;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 28px 9px; }
+      h1 { font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Добро пожаловать<br>в семейный уголок</h1>
+    <div class="links">
+      <a class="nav-link" href="album/alb2.html">Семейный фотоальбом</a>
+      <a class="nav-link" href="tree1.html">Фамильное дерево 1</a>
+      <a class="nav-link" href="family-tree-2.html">Фамильное дерево 2</a>
+    </div>
+    <div class="footer">С любовью, ваша семья ❤</div>
+</div>
+
+<!-- JS (по желанию, например — приветствие) -->
+<script>
+  // Пример оживления (лайтовый эффект)
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function() {
+      link.style.background = "#f7edd9";
+      setTimeout(() => {
+        link.style.background = "";
+      }, 180);
+    });
+  });
+</script>
+</body>
+</html>

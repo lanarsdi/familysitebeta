@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="treeyo.css" />
+  <script src="FamilyTree — копия.js"></script>
+</head>
+<body>
+<div id="tree"></div>
+
+
+ 
+ <script>
+ 
+ 
+ 
+ var nodes = [
+    { id: 1, name: "Агъмат", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"с.Андрей-аул (Эндирей)"},
+
+    { id: 2, fid: 1, name: "Мустапа", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Ахматович", city:"с.Андрей-аул (Эндирей)", date:"", description:"" },
+    { id: 3, fid: 1, name: "Иса", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Ахматович", city:"с.Андрей-аул (Эндирей)", date:"", description:"" },
+    { id: 4, fid: 1, pids: [277], name: "Муса", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Ахматович", city:"с.Андрей-аул (Эндирей)", date:"", description:"" },
+    { id: 5, fid: 1, name: "Татув", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Ахматовна", city:"с.Андрей-аул (Эндирей)", date:"", description:"" },
+   
+    { id: 6, fid: 1, pids: [7], name: "Яраш", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Ахматович", city:"с.Андрей-аул (Эндирей)", date:"", description:"" },
+    { id: 7, pids: [6], name: "Муъминат", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:"" },
+    { id: 9, pids: [8], fid:13, mid:14, name: "Зарият", img: "images/th/SCN_20251124_163748.jpg", gender: "female", famname:"Атаева", surname:"Арсемековна", city:"с.Адиль-янгиюрт", date:"1897-03-01", description:""  },
+    { id: 8, fid: 6, mid: 7, pids: [9], name: "Магъмат", title: "", img: "images/man.jpg", gender: "male", famname:"Алибеков", surname:"Ярашевич", city:"с.Андрей-аул (Эндирей)", date:"", description:""  },
+    
+
+    { id: 10, fid: 8, mid: 9, pids: [11], name: "Манап", title: "", img: "images/th/SCN_20251124_145726.jpg", gender: "male", famname:"Алибеков", surname:"Магомедович", city:"с.Андрей-аул (Эндирей)", date:"1931-12-06", description:""  },
+    { id: 11, pids: [10], fid:18, mid:19,  name: "Патимат", img: "images/th/SCN_20251127_211447.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"с.Хасанай", date:"1929-08-23", description:""  },
+
+     { id: 12, name: "Атай", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"с.Адиль-янгиюрт", date:"", description:""  },
+
+    { id: 13, pids: [14], fid: 12, name: "Арсемек", title: "", img: "images/man.jpg", gender: "male", famname:"Атаев", surname:"Атаевич", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 14, pids: [13] ,fid: 373, name: "Нана", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""  },
+
+    { id: 373, name: "", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 15, fid: 373, name: "Гегюрчюн", title: "", img: "images/woman.jpg", gender: "female", famname:"Атаева", surname:"Атаевна", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 16, fid: 373, name: "Салгъат", title: "", img: "images/woman.jpg", gender: "female", famname:"Атаева", surname:"Атаевна", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 17, fid: 373, name: "Зубат", title: "", img: "images/woman.jpg", gender: "female", famname:"Атаева", surname:"Атаевна", city:"с.Адиль-янгиюрт", date:"", description:""  },
+
+
+    { id: 18, pids: [19], fid: 104, name: "Ханбатыр", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев-Сабанчиев", surname:" ", city:"с.Хасанай", date:"", description:""  },
+    { id: 19, pids: [18] , name: "Абай", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Эльбурзановна", city:"с.Адиль-янгиюрт", date:"1890-01-01", description:""  },
+    
+    { id: 20, fid: 18, mid: 19, name: "Юнус", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"1912-01-01", description:""  },
+    { id: 21, fid: 18, mid: 19, name: "Абусалам", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"", description:""  },
+    { id: 22, fid: 18, mid: 19, pids:[404], name: "Абдуламит", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"1924-01-01", description:""  },
+    { id: 23, fid: 18, mid: 19, pids:[425], name: "Калимат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"", date:"1918-01-01", description:""  },
+    { id: 24, fid: 18, mid: 19, pids:[452], name: "Маржанат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"", date:"1938-05-15", description:""  },
+    { id: 102, fid: 18, mid: 19, name: "Рабат", title: "", img: "images/kid.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"", date:"1930-01-01", description:""  },
+    { id: 103, fid: 18, mid: 19, pids:[472], name: "Вагъит", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"", description:""  },
+   
+    { id: 25, fid: 13, mid: 14, pids: [26], name: "Магъди", title: "", img: "images/man.jpg", gender: "male", famname:"Атаев", surname:"Арсемекович", city:"с.Адиль-янгиюрт", date:"1895-01-01", description:""  },
+    { id: 26, pids: [25], name: "Уьмюкюрсюн", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""  },
+    
+    //First line 
+    { id: 27, fid: 10, mid: 11, name: "Ахият", title: "", img: "images/kid.jpg", gender: "male", famname:"", surname:" ", city:"с.Адиль-янгиюрт", date:"1951-01-01", description:""  },
+    { id: 28, fid: 10, mid: 11, pids: [29], name: "Кабират", title: "", img: "images/th/kabirat.jpg", gender: "female", famname:"Алибекова", surname:"Манаповна", city:"с.Адиль-янгиюрт", date:"1955-09-11", description:""  },
+    { id: 29, pids: [28],  fid: 111, mid: 112, name: "Магомед", title: "", img: "images/th/mamat.jpg", gender: "male", famname:"Абдурахманов", surname:"Бадирович", city:"с.Адиль-янгиюрт", date:"1957-10-22", description:"В 1983 окончил МСХА им.Тимирязева, с 1983 по 1985 – проходил воинскую службу в г. Брест. В 1988 – окончил высшие курсы ВК КГБ СССР г. Минск. Проходил военную службу на различных должностях в органах государственной безопасности КГБ СССР, ФСБ РФ, окончил Академию ФСБ РФ."   },
+    { id: 30, fid: 10, mid: 11, pids: [31], name: "Шахбат", title: "", img: "images/th/shakhbat.jpg", gender: "female", famname:"Алибекова", surname:"Манаповна", city:"с.Адиль-янгиюрт", date:"1957-02-11", description:""   },
+    { id: 31, pids: [30], fid: 124, mid: 125, name: "Руслан", title: "", img: "images/", gender: "male", famname:"Акавов", surname:"Магомедович", city:"г.Хасавюрт", date:"1958-02-11", description:""   },
+    { id: 32, fid: 10, mid: 11, pids: [33], name: "Ибрагим", title: "", img: "images/th/ibragim.jpg", gender: "male", famname:"Алибеков", surname:"Манапович", city:"с.Адиль-янгиюрт", date:"1959-01-18", description:"Поступил на службу в органы прокуратуры в 1984 году. Занимал должности  помощника прокурора Акушинского района, старшего следователя прокуратуры г. Кизляра, заместителя прокурора г. Хасавюрта, следователя, помощника, заместителя, прокурора Хасавюртовского района, прокурора г. Махачкалы."   },
+    { id: 33, pids: [32], fid: 174, mid: 175, name: "Рабият", title: "", img: "images/th/rabiyat.jpg", gender: "female", famname:"Шипиева", surname:"Калсыновна", city:"с.Адиль-янгиюрт", date:"1962-01-08", description:""   },
+    { id: 35, fid: 10, mid: 11, name: "Вагидат", title: "", img: "images/kid.jpg", gender: "female", famname:"", surname:" ", city:"с.Адиль-янгиюрт", date:"1964-01-01", description:""   },
+    { id: 34, fid: 10, mid: 11, pids: [36], name: "Айна", title: "", img: "images/th/aina.jpg", gender: "female", famname:"Алибекова", surname:"Манаповна", city:"с.Адиль-янгиюрт", date:"1962-03-18", description:""   },
+    { id: 36, pids: [34], fid: 198, mid:199, name: "Бозигит", title: "", img: "images/th/bozigit.jpg", gender: "male", famname:"Султанахмедов", surname:"Гасанович", city:"", date:"1962-07-09", description:""   },
+    { id: 37, fid: 10, mid: 11, pids: [38,39], name: "Исмаил", title: "", img: "images/th/ismail.jpg", gender: "male", famname:"Алибеков", surname:"Манапович", city:"с.Адиль-янгиюрт", date:"1966-06-13", description:""   },
+    { id: 38,  pids: [37], fid: 211, mid: 212, name: "Гозель", title: "", img: "images/th/gozel.jpg", gender: "female", famname:"Магомедова", surname:" ", city:"", date:"1965-07-16", description:""   },
+    { id: 39, pids: [37], fid: 206, mid: 207, name: "Эльза", title: "", img: "images/th/elsa.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 40, fid: 10, mid: 11, pids: [41], name: "Ильму", title: "", img: "images/th/ilmu.jpg", gender: "female", famname:"Алибекова", surname:"Манаповна", city:"с.Бабаюрт", date:"1969-06-20", description:""   },
+    { id: 41,  pids: [40], fid:167, mid:166, name: "Марат", title: "", img: "images/th/marat.jpg", gender: "male", famname:"Дадаев", surname:"Ирбайханович", city:"", date:"1968-08-30", description:""   },
+    { id: 42, fid: 10, mid: 11, pids: [43], name: "Аида", title: "", img: "images/th/aida.jpg", gender: "female", famname:"Алибекова", surname:"Манаповна", city:"с.Бабаюрт", date:"1971-03-02", description:""   },
+    { id: 43,  pids: [42], fid: 242, mid: 243, name: "Арсен", title: "", img: "images/th/arsen.jpg", gender: "male", famname:"Сабанаев", surname:"Касумович", city:"", date:"1969-08-05", description:""   },
+
+    { id: 44, fid: 29, mid: 28, name: "Надим", title: "", img: "images/th/nadim.jpg", gender: "male", famname:"Абдурахманов", surname:"Магомедович", city:"г.Хасавюрт", date:"1982-07-09", description:""   },
+    { id: 45, fid: 29, mid: 28, pids: [65], name: "Азим", title: "", img: "images/th/ozya.jpg", gender: "male", famname:"Абдурахманов", surname:"Магомедович", city:"с.Бабаюрт", date:"1986-04-23", description:""   },
+    { id: 46, fid: 29, mid: 28, pids:[69], name: "Зумруд", title: "", img: "images/th/zumrud.jpg", gender: "female", famname:"Абдурахманова", surname:"Магомедовна", city:"с.Бабаюрт", date:"1991-07-02", description:""   },
+
+    { id: 47, fid: 31, mid: 30, pids: [73], name: "Джаминат", title: "", img: "images/th/djama.jpg", gender: "female", famname:"Акавова", surname:"Руслановна", city:"г.Хасавюрт", date:"1986-05-19", description:""   },
+    { id: 48, fid: 31, mid: 30, name: "Арслан", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Русланович", city:"г.Хасавюрт", date:"1989-01-29", description:""   },
+    { id: 49, fid: 31, mid: 30, name: "Эльдар", title: "", img: "images/th/eldar.jpg", gender: "male", famname:"Акавов", surname:"Русланович", city:"г.Клин", date:"1999-05-30", description:""   },
+
+    { id: 50, fid: 32, mid: 33, pids: [76], name: "Гульдженнет", title: "", img: "images/th/gulya.jpg", gender: "female", famname:"Алибекова", surname:"Ибрагимовна", city:"с.Бабаюрт", date:"1985-07-07", description:""   },
+    { id: 51, fid: 32, mid: 33, name: "Алибек", title: "", img: "images/th/alibek.jpg", gender: "male", famname:"Алибеков", surname:"Ибрагимович", city:"с.Бабаюрт", date:"1987-08-06", description:""   },
+    { id: 52, fid: 32, mid: 33, pids: [80], name: "Зюльмира", title: "", img: "images/th/zulmira.jpg", gender: "female", famname:"Алибекова", surname:"Ибрагимовна", city:"г.Кизляр", date:"1990-08-20", description:""   },
+
+    { id: 53, fid: 36, mid: 34, name: "Курбан", title: "", img: "images/", gender: "male", famname:"Султанахмедов", surname:"Бозигитович", city:"г.Хасавюрт", date:"1993-05-28", description:""   },
+    { id: 54, fid: 36, mid: 34, name: "Камиль", title: "", img: "images/th/kamil.jpg", gender: "male", famname:"Султанахмедов", surname:"Бозигитович", city:"г.Махачкала", date:"1996-09-18", description:""   },
+
+    { id: 55, fid: 37, mid: 38, pids: [84], name: "Альтина", title: "", img: "images/", gender: "female", famname:"Алибекова", surname:"Исмаиловна", city:"г.Хасавюрт", date:"1989-08-24", description:""   },
+    { id: 56, fid: 37, mid: 38, pids: [87], name: "Айнутдин", title: "", img: "images/", gender: "male", famname:"Алибеков", surname:"Исмаилович", city:"г.Махачкала", date:"1994-12-29", description:""   },
+    { id: 57, fid: 37, mid: 38, name: "Магомед", title: "", img: "images/th/maga.jpg", gender: "male", famname:"Алибеков", surname:"Исмаилович", city:"с.Бабаюрт", date:"2004-05-12", description:""   },
+
+    { id: 58, fid: 41, mid: 40, pids: [89], name: "Рашид", title: "", img: "images/th/rashid.jpg", gender: "male", famname:"Дадаев", surname:"Маратович", city:"г.Хасавюрт", date:"1992-02-26", description:""   },
+    { id: 59, fid: 41, mid: 40, pids: [92], name: "Джамал", title: "", img: "images/th/djamal.jpg", gender: "male", famname:"Дадаев", surname:"Маратович", city:"г.Хасавюрт", date:"1995-03-26", description:""   },
+    { id: 60, fid: 41, mid: 40, name: "Ирбайхан", title: "", img: "images/th/boha.jpg", gender: "male", famname:"Дадаев", surname:"Маратович", city:"г.Хасавюрт", date:"2000-07-18", description:""   },
+
+    { id: 61, fid: 43, mid: 42, pids: [93], name: "Камилла", title: "", img: "images/th/kamila.jpg", gender: "female", famname:"Сабанаева", surname:"Арсеновна", city:"г.Махачкала", date:"1995-01-11", description:""   },
+    { id: 62, fid: 43, mid: 42, pids: [96], name: "Джамиля", title: "", img: "images/th/djamilya.jpg", gender: "female", famname:"Сабанаева", surname:"Арсеновна", city:"г.Махачкала", date:"1998-03-14", description:""   },
+    { id: 63, fid: 43, mid: 42, pids: [98], name: "Алтек", title: "", img: "images/th/altek.jpg", gender: "male", famname:"Сабанаев", surname:"Арсенович", city:"г.Махачкала", date:"2001-11-10", description:""   },
+    { id: 64, fid: 43, mid: 42, name: "Айгази", title: "", img: "images/th/aigazi.jpg", gender: "male", famname:"Сабанаев", surname:"Арсенович", city:"г.Махачкала", date:"2007-10-26", description:""   },
+
+    //Second line 
+    { id: 65, pids: [45], name: "Юлдуз", title: "", img: "images/th/pachahan.jpg", gender: "female", famname:"", surname:" ", city:"", date:"1989-01-03", description:""   },
+    { id: 66, fid: 45, mid: 65, name: "Асиль", title: "", img: "images/th/asil.jpg", gender: "female", famname:"Абдурахманова", surname:"Азимовна", city:"г.Махачкала", date:"2011-07-28", description:""   },
+    { id: 67, fid: 45, mid: 65, name: "Аида", title: "", img: "images/th/aidka.jpg", gender: "female", famname:"Абдурахманова", surname:"Азимовна", city:"г.Махачкала", date:"2013-10-15", description:""   },
+    { id: 68, fid: 45, mid: 65, name: "Алхас", title: "", img: "images/th/alhas.jpg", gender: "male", famname:"Абдурахманов", surname:"Азимович", city:"г.Махачкала", date:"2014-02-07", description:""   },
+
+    { id: 69, pids: [46], fid: 109, mid: 110, name: "Тамерлан", title: "", img: "images/th/tamerlan.jpg", gender: "male", famname:"Сулейманов", surname:"Сулейманович", city:"", date:"1981-02-26", description:""   },
+    { id: 70, fid: 69, mid: 46, name: "Уллубий", title: "", img: "images/th/ulubiisul.jpg", gender: "male", famname:"Сулейманов", surname:"Тамерланович", city:"г.Махачкала", date:"", description:""   },
+    { id: 71, fid: 69, mid: 46, name: "Джанбулат", title: "", img: "images/th/djambo.jpg", gender: "male", famname:"Сулейманов", surname:"Тамерланович", city:"г.Махачкала", date:"", description:""   },
+    { id: 72, fid: 69, mid: 46, name: "Сулейман", title: "", img: "images/kid2.png", gender: "male", famname:"Сулейманов", surname:"Тамерланович", city:"г.Махачкала", date:"2025-04-22", description:""   },
+
+    { id: 73, pids: [47], fid: 100, mid: 101, name: "Курбан", title: "", img: "images/th/kurbanadj.jpg", gender: "male", famname:"Аджиахмаев", surname:"Арсенович", city:"г.Хасавюрт", date:"1985-09-14", description:""   },
+    { id: 74, fid: 73, mid: 47, name: "Эмилия", title: "", img: "images/th/emilia.jpg", gender: "female", famname:"Аджиахмаева", surname:"Курбановна", city:"г.Москва", date:"2013-04-21", description:""   },
+    { id: 75, fid: 73, mid: 47, name: "Луиза", title: "", img: "images/th/luiza.jpg", gender: "female", famname:"Аджиахмаева", surname:"Курбановна", city:"г.Москва", date:"2015-09-27", description:""   },
+
+    { id: 76, pids: [50], name: "Мурат", title: "", img: "images/th/muratnur.jpg", gender: "male", famname:"Нурмагомедов", surname:"Русланович", city:"", date:"1985-09-18", description:""   },
+    { id: 77, fid: 76, mid: 50, name: "Диана", title: "", img: "images/th/diana.jpg", gender: "female", famname:"Нурмагомедова", surname:"Муратовна", city:"г.Хасавюрт", date:"2008-12-30", description:""   },
+
+    //{ id: 78, name: "Дженнет", title: "", img: "images/", gender: "female" },
+    { id: 79, fid: 51, name: "Мурат", title: "", img: "images/", gender: "male", famname:"Алибеков", surname:"Алибекович", city:"Махачкала", date:"2020-03-04", description:""   },
+
+    { id: 80, pids: [52], name: "Магомед", title: "", img: "images/th/madik.jpg", gender: "male", famname:"Боташев", surname:"Загирович", city:"", date:"", description:""   },
+    { id: 81, fid: 80, mid: 52, name: "Гаджи", title: "", img: "images/th/gadji.jpg", gender: "male", famname:"Боташев", surname:"Магомедович", city:"г.Хасавюрт", date:"", description:""   },
+    { id: 82, fid: 80, mid: 52, name: "Лейла", title: "", img: "images/th/leila.jpg", gender: "female", famname:"Боташева", surname:"Магомедовна", city:"г.Хасавюрт", date:"", description:""   },
+    { id: 83, fid: 80, mid: 52, name: "Али", title: "", img: "images/", gender: "male", famname:"Боташев", surname:"Магомедович", city:"г.Хасавюрт", date:"", description:""   },
+
+    { id: 84, pids: [55], name: "Айнутдин", title: "", img: "images/", gender: "male", famname:"Алиев", surname:" ", city:"", date:"", description:""   },
+    { id: 85, fid: 84, mid: 55, name: "Мухтар", title: "", img: "images/", gender: "male", famname:"Алиева", surname:"Айнутдинович", city:"г.Воронеж", date:"2017-01-16", description:""   },
+    { id: 86, fid: 84, mid: 55, name: "Аида", title: "", img: "images/", gender: "female", famname:"Алиева", surname:"Айнутдиновна", city:"г.Воронеж", date:"", description:""   },
+    
+
+    { id: 87, pids: [56], name: "Мадина", title: "", img: "images/th/madina.jpg", gender: "female", famname:"Исламова", surname:"Исаевна", city:"", date:"", description:""   },
+    { id: 88, fid: 56, mid: 87, name: "Манап", title: "", img: "images/kid2.png", gender: "male", famname:"Алибеков", surname:"Айнутдинович", city:"", date:"", description:""   },
+
+    { id: 89, pids: [58], name: "Дженнет", title: "", img: "images/th/djennet.jpg", gender: "female", famname:"Абукова", surname:" ", city:"", date:"", description:""   },
+    { id: 90, fid: 58, mid: 89, name: "Юлдуз", title: "", img: "images/kid2.png", gender: "female", famname:"Дадаева", surname:"Рашидовна", city:"г.Махачкала", date:"2023-06-03", description:""   },
+    { id: 91, fid: 58, mid: 89, name: "Вагид", title: "", img: "images/kid2.png", gender: "male", famname:"Дадаев", surname:"Рашидовна", city:"г.Махачкала", date:"2025-01-19", description:""   },
+
+    { id: 92, pids: [59], name: "Юлдуз", title: "", img: "images/th/yulduzjr.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+
+    { id: 93, pids: [61], name: "Уллубий", title: "", img: "images/", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 94, fid: 93, mid: 61, name: "Алина", title: "", img: "images/", gender: "female", famname:"", surname:"Улубиевна", city:"г.Махачкала", date:"", description:""   },
+    { id: 95, fid: 93, mid: 61, name: "Нажабат", title: "", img: "images/kid2.png", gender: "female", famname:"", surname:"Улубиевна", city:"г.Махачкала", date:"2023-07-06", description:""   },
+
+    { id: 96, pids: [62], name: "Хизри", title: "", img: "images/th/hizri.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 97, fid: 96, mid: 62, name: "Мурат", title: "", img: "images/kid2.png", gender: "male", famname:"", surname:"Хизриевич", city:"г.Москва", date:"", description:""   },
+
+    { id: 98, pids: [63], name: "Бурлият", title: "", img: "images/th/burliyat.jpg", gender: "female", famname:"Байсангурова", surname:" ", city:"", date:"0000-12-18", description:""   },
+    { id: 99, fid: 63, mid: 98, name: "Касум", title: "", img: "images/kid2.png", gender: "male", famname:"Сабанаев", surname:"Алтекович", city:"г.Махачкала", date:"2024-08-05", description:""   },
+    
+    { id: 100, pids: [101], name: "Арсен", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиахмаев", surname:" ", city:"с.Чагыротар", date:"1962-03-07", description:""   },
+    { id: 101, pids: [100], name: "Минахан", title: "", img: "images/woman.jpg", gender: "female", famname:"Орусханова", surname:" ", city:"с.Адиль-янгиюрт", date:"1958-07-17", description:""   },
+
+    { id: 104,  name: "", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев", surname:" ", city:"", date:"", description:""   },
+
+    { id: 105, fid: 104,  name: "Явбатыр", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев", surname:" ", city:"", date:"", description:""   },
+    { id: 106, fid: 104,  name: "Бабав", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев", surname:" ", city:"", date:"", description:""   },
+    { id: 107, fid: 104,  name: "Джанбатыр", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев", surname:" ", city:"", date:"", description:""   },
+    { id: 108, fid: 104,  name: "Абдулазим", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев", surname:" ", city:"", date:"", description:""   },
+
+    { id: 109, pids: [110],  name: "Сулейман", title: "", img: "images/th/suleiman.jpg", gender: "male", famname:"Сулейманов", surname:" ", city:"", date:"", description:""   },
+    { id: 110, pids: [109],  name: "Нерази", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+
+    { id: 111, pids: [112],   name: "Бадир", title: "", img: "images/man.jpg", gender: "male", famname:"Абдурахманов", surname:" ", city:"", date:"", description:""   },
+    { id: 112, pids: [111],  name: "Асильхан", title: "", img: "images/woman.jpg", gender: "female", famname:"Гучукова", surname:" ", city:"", date:"", description:""   },
+    { id: 113, pids: [116], fid: 111, mid: 112,  name: "Надай", title: "", img: "images/man.jpg", gender: "male", famname:"Абдурахманов", surname:"Бадирович", city:"", date:"", description:""   },
+    { id: 114, pids: [117], fid: 111, mid: 112,  name: "Расул", title: "", img: "images/man.jpg", gender: "male", famname:"Абдурахманов", surname:"Бадирович", city:"", date:"", description:""   },
+    { id: 115, pids: [118], fid: 111, mid: 112,  name: "Эмма", title: "", img: "images/th/emma.jpg", gender: "female", famname:"Абдурахманова", surname:"Бадировна", city:"", date:"", description:""   },
+    { id: 116, pids: [113],  name: "Байрам-къыз", title: "", img: "images/th/bairamkiz.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 117, pids: [114],  name: "Наида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 118, pids: [115],  name: "Хайбулла", title: "", img: "images/man.jpg", gender: "male", famname:"Батдалов", surname:"Ахматович", city:"", date:"", description:""   },
+    { id: 119, fid: 113, mid: 116,  name: "Вадим", title: "", img: "images/th/vadim.jpg", gender: "male", famname:"Абдурахманов", surname:"Надаевич", city:"", date:"", description:""   },
+    { id: 120, fid: 113, mid: 116,  name: "Болат", title: "", img: "images/th/bulatabd.jpg", gender: "male", famname:"Абдурахманов", surname:"Надаевич", city:"", date:"", description:""   },
+    { id: 121, fid: 113, mid: 116,  name: "Кантат", title: "", img: "images/th/tatu.jpg", gender: "female", famname:"Абдурахманов", surname:"Надаевна", city:"", date:"", description:""   },
+    { id: 122, fid: 118, mid: 115,  name: "Мурат", title: "", img: "images/th/muradb.jpg", gender: "male", famname:"Батдалов", surname:"Хайбуллаевич", city:"", date:"", description:""   },
+    { id: 123, fid: 118, mid: 115,  name: "Мадина", title: "", img: "images/woman.jpg", gender: "female", famname:"Батдалова", surname:"Хайбуллаевна", city:"", date:"", description:""   },
+    { id: 310, fid: 118, mid: 115,  name: "Муcлим", title: "", img: "images/man.jpg", gender: "male", famname:"Батдалов", surname:"Хайбуллаевич", city:"", date:"", description:""   },
+
+     { id: 124, pids: [125], fid:163,   name: "Магомед", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:" ", city:"", date:"1926-10-12", description:""   },
+     { id: 125, pids: [124],  name: "Забия", title: "", img: "images/th/anashka.jpg", gender: "female", famname:"Боруева", surname:"Зайналабидовна", city:"Аксай", date:"1931-03-15", description:""   },
+    
+    { id: 126, pids: [134], fid: 124, mid: 125,  name: "Бийсултан", title: "", img: "images/th/biisultan.jpg", gender: "male", famname:"Акавов", surname:"Магомедович", city:"с.Аксай", date:"1949-12-23", description:""   },
+    { id: 127, pids: [135], fid: 124, mid: 125,  name: "Зоя", title: "", img: "images/th/zoya.jpg", gender: "female", famname:"Акавов", surname:"Магомедовна", city:"г.Хасавюрт", date:"1954-10-23", description:""   },
+    { id: 128, pids: [136], fid: 124, mid: 125,  name: "Расул", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Магомедович", city:"г.Хасавюрт", date:"1960-01-03", description:""   },
+    { id: 129, pids: [137], fid: 124, mid: 125,  name: "Тамара", title: "", img: "images/th/tamara.jpg", gender: "female", famname:"Акавов", surname:"Магомедовна", city:"г.Хасавюрт", date:"1961-01-28", description:""   },
+    { id: 130, pids: [138], fid: 124, mid: 125,  name: "Темирсултан", title: "", img: "images/th/temirsultan.jpg", gender: "male", famname:"Акавов", surname:"Магомедович", city:"г.Хасавюрт", date:"1962-10-13", description:""   },
+    { id: 131, pids: [139], fid: 124, mid: 125,  name: "Белла", title: "", img: "images/th/bella.jpg", gender: "female", famname:"Акавов", surname:"Магомедовна", city:"г.Хасавюрт", date:"1964-01-04", description:""   },
+    { id: 132, pids: [140], fid: 124, mid: 125,  name: "Байсултан", title: "", img: "images/th/baisultan.jpg", gender: "male", famname:"Акавов", surname:"Магомедович", city:"г.Хасавюрт", date:"1967-05-18", description:""   },
+    { id: 133, pids: [141], fid: 124, mid: 125,  name: "Нурьян", title: "", img: "images/th/nurian.jpg", gender: "female", famname:"Акавов", surname:"Магомедовна", city:"г.Хасавюрт", date:"1968-06-19", description:""   },
+    { id: 356, pids: [357], fid: 124, mid: 125,  name: "Эльмира", title: "", img: "images/th/elmira.jpg", gender: "female", famname:"Акавов", surname:"Магомедовна", city:"г.Хасавюрт", date:"1965-03-02", description:""   },
+
+    { id: 134, pids: [126],  name: "Узупат", title: "", img: "images/th/haznam.jpg", gender: "female", famname:"", surname:"Салиховна", city:"с.Костек", date:"1942-05-10", description:""   },
+    { id: 135, pids: [127],  name: "Арслан (Мурад)", title: "", img: "images/man.jpg", gender: "male", famname:"Мажидов", surname:"Абдулмажидович", city:"", date:"1955-10-17", description:""   },
+    { id: 136, pids: [128],  name: "Аида", title: "", img: "images/woman.jpg", gender: "female", famname:"Махтибекова", surname:"Абдулбасировна", city:"", date:"", description:""   },
+    { id: 137, pids: [129],  name: "Дагир", title: "", img: "images/man.jpg", gender: "male", famname:"Салатгереев", surname:"Рамазанович", city:"с.Аксай", date:"1957-01-01", description:""   },
+    { id: 138, pids: [130],  name: "Наида", title: "", img: "images/th/naida.jpg", gender: "female", famname:"Бийбулатова", surname:"", city:"", date:"1962-04-23", description:""   },
+    { id: 139, pids: [131],  name: "Мажид", title: "", img: "images/man.jpg", gender: "male", famname:"Байраков", surname:"", city:"", date:"", description:""   },
+    { id: 140, pids: [132],  name: "Аида", title: "", img: "images/th/aidab.jpg", gender: "female", famname:"Бекмурзаева", surname:"Калсыновна", city:"", date:"1971-08-15", description:""   },
+    { id: 141, pids: [133],  name: "Мурад", title: "", img: "images/th/muradmag.jpg", gender: "male", famname:"Магомедов", surname:"Калсынович", city:"", date:"", description:""   },
+    { id: 357, pids: [356],  name: "Джанбулат", title: "", img: "images/man.jpg", gender: "male", famname:"Салаватов", surname:"Ярашевич", city:"с.Бабаюрт", date:"", description:""   },
+
+    // { id: 142, fid: 136, mid: 129,  name: "Артур", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Гамзатович", city:"", date:"", description:""   },
+    // { id: 143, fid: 136, mid: 129,  name: "Альбина", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавов", surname:"Гамзатовна", city:"", date:"", description:""   },
+    // { id: 144, fid: 136, mid: 129,  name: "Фатима", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавов", surname:"Гамзатовна", city:"", date:"", description:""   },
+    // { id: 145, fid: 136, mid: 129,  name: "Уллубий", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Гамзатович", city:"", date:"", description:""   },
+
+    { id: 146, fid:126, mid:134,  name: "Адина", title: "", img: "images/th/adina.jpg", gender: "female", famname:"Акавова", surname:"Бийсултановна", city:"г.Хасавюрт", date:"1975-09-03", description:""   },
+    { id: 147, fid:126, mid:134,  name: "Адиль", title: "", img: "images/th/adil.jpg", gender: "male", famname:"Акавов", surname:"Бийсултанович", city:"г.Хасавюрт", date:"1981-05-09", description:""   },
+    { id: 148, fid:126, mid:134,  name: "Динара", title: "", img: "images/th/dinara.jpg", gender: "female", famname:"Акавова", surname:"Бийсултановна", city:"г.Хасавюрт", date:"1985-04-10", description:""   },
+
+    { id: 149, fid:135, mid:127,  name: "Каплан", title: "", img: "images/th/kaplan.jpg", gender: "male", famname:"Мажидов", surname:"Арсланович", city:"г.Хасавюрт", date:"1979-03-06", description:""   },
+    { id: 150, fid:135, mid:127,  name: "Тамерлан", title: "", img: "images/man.jpg", gender: "male", famname:"Мажидов", surname:"Арсланович", city:"г.Хасавюрт", date:"1984-06-29", description:""   },
+    { id: 151, fid:135, mid:127,  name: "Азамат", title: "", img: "images/th/azamat.jpg", gender: "male", famname:"Мажидов", surname:"Арсланович", city:"г.Хасавюрт", date:"1986-02-08", description:""   },
+
+    { id: 152, fid:128, mid:136,  name: "Дженнет", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавова", surname:"Расуловна", city:"г.Хасавюрт", date:"1989-11-02", description:""   },
+    { id: 153, fid:128, mid:136,  name: "Зумруд", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавова", surname:"Расуловна", city:"г.Хасавюрт", date:"1996-01-24", description:""   },
+
+    { id: 154, fid:137, mid:129,  name: "Юлдуз", title: "", img: "images/th/yulduzs.jpg", gender: "female", famname:"Салатгереева", surname:"Дагировна", city:"", date:"1995-07-29", description:""   },
+
+    { id: 155, fid:130, mid:138,  name: "Нариман", title: "", img: "images/th/nariman.jpg", gender: "male", famname:"Акавов", surname:"Темирсултанович", city:"г.Хасавюрт", date:"1994-06-02", description:""   },
+    { id: 156, fid:130, mid:138,  name: "Камиль", title: "", img: "images/th/kamilak.jpg", gender: "male", famname:"Акавов", surname:"Темирсултанович", city:"г.Клин", date:"1999-05-29", description:""   },
+    { id: 157, fid:130, mid:138,  name: "Асиль", title: "", img: "images/th/asilak.jpg", gender: "female", famname:"Акавова", surname:"Темирсултановна", city:"г.Клин", date:"2001-10-05", description:""   },
+
+    { id: 158, fid:132, mid:140,  name: "Хансултан", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Байсултанович", city:"г.Клин", date:"1997-10-29", description:""   },
+    { id: 159, fid:132, mid:140,  name: "Надыр", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Байсултанович", city:"г.Клин", date:"1999-04-02", description:""   },
+
+    { id: 160, fid:141, mid:133,  name: "Аскер", title: "", img: "images/th/asker.jpg", gender: "male", famname:"Магомедов", surname:"Мурадович", city:"г.Хасавюрт", date:"1997-12-08", description:""   },
+    { id: 161, fid:141, mid:133,  name: "Амина", title: "", img: "images/th/amina.jpg", gender: "female", famname:"Магомедова", surname:"Мурадовна", city:"г.Хасавюрт", date:"2000-07-19", description:""   },
+
+    { id: 162, fid:139, mid:131,  name: "Майминат", title: "", img: "images/woman.jpg", gender: "female", famname:"Байракова", surname:"Мажидовна", city:"", date:"1989-05-28", description:""   },
+
+    { id: 358, fid:357, mid:356,  name: "Гозель", title: "", img: "images/th/gozels.jpg", gender: "female", famname:"Салаватова", surname:"Джанбулатовна", city:"", date:"1989-06-01", description:""   },
+    { id: 359, fid:357, mid:356,  name: "Зиярат", title: "", img: "images/woman.jpg", gender: "female", famname:"Салаватова", surname:"Джанбулатовна", city:"", date:"1990-11-22", description:""   },
+
+    { id: 163, pids: [260], name: "Темирбулат", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:" ", city:"", date:"", description:""   },
+    { id: 164, fid: 163,  name: "Ахмат", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:" ", city:"с.Аксай", date:"", description:""   },
+    { id: 165, fid: 163, pids: [250],  name: "Махмуд", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:" ", city:"с.Аксай", date:"1937-01-10", description:""   },
+    { id: 166, pids: [167], fid: 164,   name: "Зубайдат", title: "", img: "images/th/ija.jpg", gender: "female", famname:"Акавова", surname:"Ахмадовна", city:"", date:"1941-04-01", description:""   },
+    { id: 167, pids: [166],   name: "Ирбайхан", title: "", img: "images/man.jpg", gender: "male", famname:"Дадаев", surname:" ", city:"", date:"", description:""   },
+    
+    { id: 168, fid:124, pids: [169], name: "Гамзат", title: "", img: "images/th/gamzat.jpg", gender: "male", famname:"Акавов", surname:"Магомедович", city:"", date:"1945-12-12", description:""   },
+    { id: 169, pids: [168], name: "Раиса", title: "", img: "images/th/raisa.jpg", gender: "female", famname:"Алиева", surname:"Салимхановна", city:"", date:"1949-09-25", description:""   },
+    { id: 170, fid: 168, mid: 169,  name: "Альбина", title: "", img: "images/th/albina.jpg", gender: "female", famname:"Акавов", surname:"Гамзатовна", city:"", date:"1974-10-23", description:""   },
+    { id: 171, fid: 168, mid: 169,  name: "Артур", title: "", img: "images/th/artur.jpg", gender: "male", famname:"Акавов", surname:"Гамзатович", city:"", date:"1977-08-17", description:""   },
+    { id: 172, fid: 168, mid: 169,  name: "Фатима", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавов", surname:"Гамзатовна", city:"", date:"1980-09-25", description:""   },
+    { id: 173, fid: 168, mid: 169,  name: "Уллубий", title: "", img: "images/th/ullubiiak.jpg", gender: "male", famname:"Акавов", surname:"Гамзатович", city:"", date:"1986-03-29", description:""   },
+
+    { id: 174,  pids: [175], name: "Калсын", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"", city:"", date:"", description:""   },
+    { id: 175,  pids: [174], name: "Сапият", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 176, pids:[182], fid: 174, mid: 175,  name: "Заур", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"", city:"", date:"", description:""   },
+    { id: 177, pids:[183],  fid: 174, mid: 175,  name: "Абидат", title: "", img: "images/woman.jpg", gender: "female", famname:"Шипиева", surname:"", city:"", date:"", description:""   },
+    { id: 178, pids:[184],  fid: 174, mid: 175,  name: "Исламбек", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"", city:"", date:"", description:""   },
+    { id: 179, pids:[185],  fid: 174, mid: 175,  name: "Алибек", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"", city:"", date:"", description:""   },
+    { id: 180, pids:[186],  fid: 174, mid: 175,  name: "Мурадбек", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"", city:"", date:"", description:""   },
+    { id: 181, pids:[187],  fid: 174, mid: 175,  name: "Юлдузат", title: "", img: "images/woman.jpg", gender: "female", famname:"Шипиева", surname:"", city:"", date:"", description:""   },
+    { id: 182, pids:[176],  name: "Наида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 183, pids:[177],  name: "Адиль", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 184, pids:[178],  name: "Айза", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 185, pids:[179],  name: "Ильму", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 186, pids:[180],  name: "Бурлият", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 187, pids:[181],  name: "Рамазан", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+
+    { id: 188, fid: 176, mid: 182,  name: "Мадина", title: "", img: "images/woman.jpg", gender: "female", famname:"Шипиева", surname:"Зауровна", city:"", date:"", description:""   },
+    { id: 189, fid: 176, mid: 182,  name: "Гульзахра", title: "", img: "images/woman.jpg", gender: "female", famname:"Шипиева", surname:"Зауровна", city:"", date:"", description:""   },
+    { id: 190, fid: 176, mid: 182,  name: "Азнаур", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"Заурович", city:"", date:"", description:""   },
+
+    { id: 191, fid: 183, mid: 177,  name: "Айгум", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Адилевич", city:"", date:"", description:""   },
+    { id: 192, fid: 183, mid: 177,  name: "Азиза", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Адилевна", city:"", date:"", description:""   },
+    { id: 193, fid: 183, mid: 177,  name: "Азамат", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Адилевич", city:"", date:"", description:""   },
+
+    { id: 194, fid: 178, mid: 184,  name: "Ума", title: "", img: "images/woman.jpg", gender: "female", famname:"Шипиева", surname:"Исламбековна", city:"", date:"", description:""   },
+    { id: 195, fid: 178, mid: 184,  name: "Амир", title: "", img: "images/man.jpg", gender: "male", famname:"Шипиев", surname:"Исламбекович", city:"", date:"", description:""   },
+
+    { id: 196, fid: 187, mid: 181,  name: "Магомед", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Рамазанович", city:"", date:"", description:""   },
+    { id: 197, fid: 187, mid: 181,  name: "Сараханум", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Рамазановна", city:"", date:"", description:""   },
+
+    { id: 198,  pids: [199], name: "Гасан", title: "", img: "images/man.jpg", gender: "male", famname:"Султанахмедов", surname:"", city:"", date:"", description:""   },
+    { id: 199,  pids: [198], name: "Зулай", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 200,  pids: [202], fid: 198, mid: 199, name: "Абдулла", title: "", img: "images/man.jpg", gender: "male", famname:"Султанахмедов", surname:"Гасанович", city:"", date:"", description:""   },
+    { id: 201,  pids: [203], fid: 198, mid: 199, name: "Аскер", title: "", img: "images/man.jpg", gender: "male", famname:"Султанахмедов", surname:"Гасанович", city:"", date:"", description:""   },
+    { id: 202,  pids: [200], name: "Гульнара", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 203,  pids: [201], name: "Саудат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 204, fid: 201, mid: 203, name: "Саламат", title: "", img: "images/man.jpg", gender: "male", famname:"Султанахмедов", surname:"Аскерович", city:"", date:"", description:""   },
+    { id: 205, fid: 201, mid: 203, name: "Мадина", title: "", img: "images/woman.jpg", gender: "female", famname:"Султанахмедова", surname:"Аскеровна", city:"", date:"", description:""   },
+    
+
+
+    { id: 206,  pids: [207], name: "", title: "", img: "images/man.jpg", gender: "male", famname:"Биймурзаев", surname:"", city:"", date:"", description:""   },
+    { id: 207,  pids: [206], name: "Макка", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 208,  pids: [], fid: 206, mid: 207, name: "Зульфия", title: "", img: "images/man.jpg", gender: "female", famname:"Биймурзаева", surname:"", city:"", date:"", description:""   },
+    { id: 209,  pids: [], fid: 206, mid: 207, name: "Биймурза", title: "", img: "images/man.jpg", gender: "male", famname:"Биймурзаев", surname:"", city:"", date:"", description:""   },
+    { id: 210,  pids: [], mid: 208, name: "Юлдуз", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+
+    { id: 211,  pids: [212], name: "Джалалдин", title: "", img: "images/man.jpg", gender: "male", famname:"Магомедов", surname:"", city:"", date:"", description:""   },
+    { id: 212,  pids: [211], name: "Лайла", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 213,  pids: [216], fid: 211, mid: 212, name: "Алевдин", title: "", img: "images/man.jpg", gender: "male", famname:"Магомедов", surname:"Джалалдинович", city:"", date:"", description:""   },
+    { id: 214,  pids: [217], fid: 211, mid: 212, name: "Эмма", title: "", img: "images/woman.jpg", gender: "female", famname:"Магомедова", surname:"Джалалдиновна", city:"", date:"", description:""   },
+    { id: 215,  pids: [218], fid: 211, mid: 212, name: "Салавдин", title: "", img: "images/man.jpg", gender: "male", famname:"Магомедов", surname:"Джалалдинович", city:"", date:"", description:""   },
+    { id: 216,  pids: [213], name: "Белла", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 217,  pids: [214], name: "", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 218,  pids: [215], name: "Арапат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 219,  pids: [], fid: 213, mid: 216, name: "Альбина", title: "", img: "images/woman.jpg", gender: "female", famname:"Магомедова", surname:"Алевдиновна", city:"", date:"", description:""   },
+    { id: 220,  pids: [], fid: 214, mid: 217, name: "Тимур", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 221,  pids: [], fid: 214, mid: 217, name: "Ислам", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 222,  pids: [], fid: 214, mid: 217, name: "Рустам", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+
+    
+    { id: 223,  pids: [227], fid: 166, mid: 167, name: "Гульнара", title: "", img: "images/th/gulnara.jpg", gender: "female", famname:"Дадаева", surname:"Ирбайхановна", city:"", date:"", description:""   },
+    { id: 224,  pids: [228], fid: 166, mid: 167, name: "Гульмира", title: "", img: "images/th/gulmira.jpg", gender: "female", famname:"Дадаева", surname:"Ирбайхановна", city:"", date:"", description:""   },
+    { id: 225,  pids: [229], fid: 166, mid: 167, name: "Болат", title: "", img: "images/th/bolatd.jpg", gender: "male", famname:"Дадаев", surname:"Ирбайханович", city:"", date:"", description:""   },
+    { id: 226,  pids: [230], fid: 166, mid: 167, name: "Адиль", title: "", img: "images/th/adild.jpg", gender: "male", famname:"дадаев", surname:"Ирбайханович", city:"", date:"", description:""   },
+    { id: 227,  pids: [223], name: "Акрам", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 228,  pids: [224], name: "Айнутдин", title: "", img: "images/man.jpg", gender: "male", famname:"Аджиев", surname:"", city:"", date:"", description:""   },
+    { id: 229,  pids: [225], name: "Рабият", title: "", img: "images/th/rabiyatd.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 230,  pids: [226], name: "Аида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 231,  pids: [], fid: 227, mid: 223, name: "Дженнет", title: "", img: "images/th/djennetd.jpg", gender: "female", famname:"", surname:"Акрамовна", city:"", date:"", description:""   },
+    { id: 232,  pids: [], fid: 227, mid: 223, name: "Джанбулат", title: "", img: "images/th/djanbulatd.jpg", gender: "male", famname:"", surname:"Акрамович", city:"", date:"", description:""   },
+    { id: 233,  pids: [], fid: 228, mid: 224, name: "Карамдин", title: "", img: "images/th/karamdin.jpg", gender: "male", famname:"Аджиев", surname:"Айнутдинович", city:"", date:"", description:""   },
+    { id: 234,  pids: [], fid: 228, mid: 224, name: "Азамат", title: "", img: "images/th/azamatj.jpg", gender: "male", famname:"Аджиев", surname:"Айнутдинович", city:"", date:"", description:""   },
+    { id: 235,  pids: [], fid: 228, mid: 224, name: "Абакар", title: "", img: "images/th/abakard.jpg", gender: "male", famname:"Аджиев", surname:"Айнутдинович", city:"", date:"", description:""   },
+    { id: 236,  pids: [], fid: 225, mid: 229, name: "Бексултан", title: "", img: "images/th/beksultan.jpg", gender: "male", famname:"Дадаев", surname:"Болатович", city:"", date:"", description:""   },
+    { id: 237,  pids: [], fid: 225, mid: 229, name: "Асиль", title: "", img: "images/woman.jpg", gender: "female", famname:"Дадаева", surname:"Болатовна", city:"", date:"", description:""   },
+    { id: 238,  pids: [], fid: 225, mid: 229, name: "Ахмат", title: "", img: "images/th/ahmatd.jpg", gender: "male", famname:"Дадаев", surname:"Болатович", city:"", date:"", description:""   },
+    { id: 239,  pids: [], fid: 226, mid: 230, name: "Гозель", title: "", img: "images/woman.jpg", gender: "female", famname:"Дадаева", surname:"Адилевна", city:"", date:"", description:""   },
+    { id: 240,  pids: [], fid: 226, mid: 230, name: "Алим", title: "", img: "images/th/alimd.jpg", gender: "male", famname:"Дадаев", surname:"Адилевич", city:"", date:"", description:""   },
+    { id: 241,  pids: [], fid: 226, mid: 230, name: "Амин", title: "", img: "images/th/amind.jpg", gender: "male", famname:"Дадаев", surname:"Адилевич", city:"", date:"", description:""   },
+
+    { id: 242,  pids: [243], name: "Касум", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанаев", surname:"Алтекович", city:"с.Адиль-Янгиюрт", date:"", description:""   },
+    { id: 243,  pids: [242], name: "Халифа", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"с.Хамаматюрт", date:"", description:""   },
+    { id: 244,  pids: [248], fid: 242, mid: 243, name: "Аида", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанаева", surname:"Касумовна", city:"", date:"", description:""   },
+    { id: 245,  pids: [249], fid: 242, mid: 243, name: "Уркуят", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанаева", surname:"Касумовна", city:"", date:"", description:""   },
+    { id: 246,  pids: [], fid: 242, mid: 243, name: "Айна", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанаева", surname:"Касумовна", city:"", date:"", description:""   },
+    { id: 247,  pids: [], fid: 242, mid: 243, name: "Белла", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанаева", surname:"Касумовна", city:"", date:"", description:""   },
+    { id: 248,  pids: [244], name: "Мурад", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 249,  pids: [245], name: "Шамиль", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+
+   // { id: 165, fid: 163,  name: "Махмуд", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:" ", city:"с.Аксай", date:"", description:""   },
+    { id: 250, pids: [165],  name: "Дженнет", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"с.Костек", date:"", description:""   },
+    { id: 251,  pids: [255], fid: 165, mid: 250, name: "Арсен", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Махмудович", city:"", date:"", description:""   },
+    { id: 252,  pids: [256], fid: 165, mid: 250, name: "Марат", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Махмудович", city:"", date:"", description:""   },
+    { id: 253,  pids: [257], fid: 165, mid: 250, name: "Мурат", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Махмудович", city:"", date:"", description:""   },
+    { id: 254,  pids: [], fid: 165, mid: 250, name: "Патимат", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавов", surname:"Махмудовна", city:"", date:"", description:""   },
+    { id: 255,  pids: [251],  name: "Камилла", title: "", img: "images/woman.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 256,  pids: [253],  name: "Мая", title: "", img: "images/woman.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 257,  pids: [254],  name: "Индира", title: "", img: "images/woman.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+    { id: 258,  pids: [], fid: 251, mid: 255, name: "Артур", title: "", img: "images/man.jpg", gender: "male", famname:"Акавов", surname:"Арсенович", city:"", date:"", description:""   },
+    { id: 259,  pids: [], fid: 251, mid: 255, name: "Раиса", title: "", img: "images/woman.jpg", gender: "female", famname:"Акавова", surname:"Арсеновна", city:"", date:"", description:""   },
+
+    { id: 260, pids: [163], name: "Гулеймат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"1893-01-01", description:""   },
+
+    { id: 261, fid: 106, pids: [262], name: "Рупуш", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"1934-05-09", description:""   },
+    { id: 262, pids: [261],  name: "Оьлмесов", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+
+   
+    { id: 263, fid: 25, mid: 26, pids: [], name: "Ильмухан", title: "", img: "images/woman.jpg", gender: "female", famname:"Атаева", surname:"Магъдиевна", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 264, fid: 25, mid: 26, pids: [], name: "Магъмут", title: "", img: "images/th/mahmut.jpg", gender: "male", famname:"Атаев", surname:"Магъдиевич", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 265, fid: 264, pids: [], name: "Нана", title: "", img: "images/woman.jpg", gender: "female", famname:"Атаева", surname:"Магъмутовна", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 266, fid: 264, pids: [], name: "Х-Багъавдин", title: "", img: "images/man.jpg", gender: "male", famname:"Атаев", surname:"Магъмутович", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 267, fid: 264, pids: [], name: "Алевдин", title: "", img: "images/man.jpg", gender: "male", famname:"Атаев", surname:"Магъмутович", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    { id: 268, fid: 264, pids: [], name: "Гуля", title: "", img: "images/th/gulyast.jpg", gender: "female", famname:"Атаева", surname:"Магъмутовна", city:"с.Адиль-янгиюрт", date:"", description:""  },
+    
+   
+    { id: 269, mid: 15, name: "Арсланхан", title: "", img: "images/man.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 270, mid: 15, name: "Муцал", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 271, mid: 16, name: "Ирайгъанат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 272, mid: 17, name: "Зияв", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 273, mid: 272, name: "Сайпит", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 274, mid: 272, name: "Нюрюдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 275, mid: 272, name: "Мюгюдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 276, mid: 272, name: "Салагъдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+
+   // { id: 4, fid: 1, pids: [277], name: "Муса", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Ахматович", city:"с.Андрей-аул (Эндирей)", date:"", description:"" },
+    { id: 277, pids: [4], name: "Патимат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:"" },
+    { id: 278, fid: 4, mid: 277, pids: [], name: "Мюгьютдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 279, fid: 4, mid: 277, pids: [], name: "Айхали", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 280, fid: 4, mid: 277, pids: [], name: "Даниял", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 281, fid: 4, mid: 277, pids: [], name: "Баммат", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 282, fid: 4, mid: 277, pids: [], name: "Ризван", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 283, fid: 4, mid: 277, pids: [285], name: "Гъажи", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 284, fid: 4, mid: 277, name: "Шашав", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 285, pids: [283], name: "Халжат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Исакъовна", city:"с.Узун-Отар", date:"", description:""  },
+    { id: 286, fid: 283, mid: 285, pids: [339], name: "Разия", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"1927-01-01", description:""  },
+    { id: 287, fid: 283, mid: 285, pids: [289], name: "Тавсолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Гъажиевич", city:"", date:"1929-01-01", description:""  },
+    { id: 288, fid: 283, mid: 285, pids: [345], name: "Салавдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"1936-01-01", description:""  },
+    { id: 289,  pids: [287], name: "Нафсат", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Агъматовна", city:"с.Костек", date:"", description:""  },
+    { id: 290, fid: 287, mid: 289, pids: [295], name: "Бийсолтан", title: "", img: "images/th/biisultank.jpg", gender: "male", famname:"Карсаков", surname:"Тавсолтанович", city:"г.Хасавюрт", date:"1951-05-27", description:""  },
+    { id: 291, fid: 287, mid: 289, pids: [300], name: "Хансолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Тавсолтанович", city:"", date:"1952-10-16", description:""  },
+    { id: 292, fid: 287, mid: 289, pids: [360], name: "Алимсолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Тавсолтанович", city:"", date:"1954-09-18", description:""  },
+    { id: 293, fid: 287, mid: 289, pids: [365], name: "Надирсолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Тавсолтанович", city:"", date:"1956-05-08", description:""  },
+    { id: 294, fid: 287, mid: 289, pids: [369], name: "Бадия", title: "", img: "images/th/patat.jpg", gender: "female", famname:"Карсакова", surname:"Тавсолтановна", city:"", date:"1957-10-05", description:""  },
+    { id: 295, pids: [290], name: "Роза", title: "", img: "images/th/rosa.jpg", gender: "female", famname:"Идикова", surname:"Батырмузаевна", city:"г.Хасавюрт", date:"1951-01-10", description:""  },
+    { id: 296, fid: 290, mid: 295, pids: [], name: "Ибадат", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Бийсолтановна", city:"г.Хасавюрт", date:"1975-29-11", description:""  },
+    { id: 297, fid: 290, mid: 295, pids: [], name: "Гаджи", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Бийсолтанович", city:"г.Хасавюрт", date:"1977-07-15", description:""  },
+    { id: 298, fid: 290, mid: 295, pids: [], name: "Наби", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Бийсолтанович", city:"г.Хасавюрт", date:"1981-08-30", description:""  },
+    { id: 299, fid: 290, mid: 295, pids: [], name: "Крымсолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Бийсолтанович", city:"г.Хасавюрт", date:"1984-03-26", description:""  },
+    
+    { id: 300, pids: [291], name: "Зулайха", title: "", img: "images/th/zulaiha.jpg", gender: "female", famname:"Оздемирова", surname:"Зайналабидовна", city:"", date:"1951-01-20", description:""  },
+    { id: 301, fid: 291, mid: 300, pids: [], name: "Курбан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Хансолтанович", city:"", date:"1978-11-16", description:""  },
+    { id: 302, fid: 291, mid: 300, pids: [], name: "Зиярат", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Хансолтанович", city:"", date:"1976-05-16", description:""  },
+
+    { id: 303, mid: 5, name: "Насурютдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 304, mid: 5, pids: [], name: "Шамшютдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 305, mid: 5, pids: [], name: "Измидин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+
+    
+    { id: 306, fid: 3, pids: [], name: "Нафсат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Исаевна", city:"", date:"", description:""  },
+    { id: 307, fid: 3, pids: [], name: "Майминат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Исаевна", city:"", date:"", description:""  },
+    { id: 308, fid: 3, pids: [], name: "Билал", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"Исаевич", date:"", description:""  },
+    { id: 309, fid: 3, pids: [316], name: "Агъмат", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Исаевич", city:"", date:"", description:""  },
+
+    { id: 311, mid: 307, pids: [], name: "Батырбий", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 312, mid: 307, pids: [], name: "Лятив", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 313, mid: 307, pids: [], name: "Гъаким", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 314, mid: 307, pids: [], name: "Гьюляй", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+
+    { id: 315, fid: 308, pids: [], name: "Патимат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Билаловна", city:"", date:"", description:""  },
+
+    { id: 316, pids: [309], name: "Ирай", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 317, fid: 309, mid: 316, pids: [], name: "Абидат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Агъматовна", city:"", date:"", description:""  },
+    { id: 317, fid: 309, mid: 316, pids: [], name: "Бюрлюят", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Агъматовна", city:"", date:"", description:""  },
+    { id: 317, fid: 309, mid: 316, pids: [], name: "Сальгъат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Агъматовна", city:"", date:"", description:""  },
+    { id: 317, fid: 309, mid: 316, pids: [], name: "Ильяс", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Агъматович", city:"", date:"", description:""  },
+
+
+    { id: 318, fid: 278, pids: [], name: "Маккахан", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Мюгьютдиновна", city:"", date:"", description:""  },
+    { id: 319, fid: 278, pids: [332], name: "Салимсолтан", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Мюгьютдиновна", city:"", date:"", description:""  },
+    { id: 320, fid: 278, pids: [], name: "Рабияхан", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Мюгьютдиновна", city:"", date:"", description:""  },
+
+    { id: 321, fid: 279, pids: [], name: "Зугъра", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Айхалиевна", city:"", date:"", description:""  },
+    { id: 322, fid: 279, pids: [], name: "Ильмухан", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Айхалиевна", city:"", date:"", description:""  },
+    { id: 323, fid: 279, pids: [], name: "Шарабдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Айхалиевич", city:"", date:"", description:""  },
+    { id: 324, fid: 279, pids: [], name: "Камалдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Айхалиевич", city:"", date:"", description:""  },
+    { id: 325, fid: 279, pids: [], name: "Багъавдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Айхалиевич", city:"", date:"", description:""  },
+    
+    { id: 326, fid: 305, pids: [348], name: "Зугъра", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Изамидиновна", city:"", date:"", description:""  },
+    { id: 327, fid: 305, pids: [], name: "Зайнулабид", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Изамидинович", city:"", date:"", description:""  },
+    { id: 328, fid: 305, pids: [], name: "Камиль", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Изамидинович", city:"", date:"", description:""  },
+    { id: 329, fid: 305, pids: [], name: "Уркъуят", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Изамидиновна", city:"", date:"", description:""  },
+    { id: 330, fid: 305, pids: [], name: "Зайбулла", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Изамидинович", city:"", date:"", description:""  },
+    { id: 331, fid: 305, pids: [], name: "Зарзанат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Изамидиновна", city:"", date:"", description:""  },
+
+    { id: 332, pids: [319], name: "Изив", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 333, fid: 319, mid: 332, pids: [], name: "Солтанмахмуд", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Салимсолтанович", city:"", date:"", description:""  },
+    { id: 334, fid: 319, mid: 332, pids: [], name: "Солтансаид", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Салимсолтанович", city:"", date:"", description:""  },
+    { id: 335, fid: 319, mid: 332, pids: [], name: "Ризван", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Салимсолтанович", city:"", date:"", description:""  },
+
+    { id: 336, mid: 321, pids: [], name: "Бийгерей", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 337, mid: 321, pids: [], name: "Сакинат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+
+    { id: 338, mid: 322, pids: [], name: "Дадай", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+
+    { id: 339, pids: [286], name: "Солтанали", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 340, fid: 339, mid: 286, pids: [], name: "Надия", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Солтаналиевна", city:"", date:"", description:""  },
+    { id: 341, fid: 339, mid: 286, pids: [], name: "Майсарат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Солтаналиевна", city:"", date:"", description:""  },
+    { id: 342, fid: 339, mid: 286, pids: [], name: "Барият", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Солтаналиевна", city:"", date:"", description:""  },
+    { id: 343, fid: 339, mid: 286, pids: [], name: "Магъарам", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Солтаналиевич", city:"", date:"", description:""  },
+    { id: 344, fid: 339, mid: 286, pids: [], name: "Заида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Солтаналиевна", city:"", date:"", description:""  },
+
+    { id: 345, pids: [288], name: "Мария", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 346, fid: 288, mid: 345, pids: [], name: "Алим", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Салавдинович", city:"", date:"1960-07-31", description:""  },
+    { id: 347, fid: 288, mid: 345, pids: [], name: "Темирсолтан", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Салавдинович", city:"", date:"1961-04-10", description:""  },
+
+    { id: 348, pids: [326], name: "Батырмурза", title: "", img: "images/man.jpg", gender: "male", famname:"Идиков", surname:"", city:"", date:"", description:""  },
+    { id: 349, fid: 348, mid: 326, pids: [352], name: "Салимхан", title: "", img: "images/man.jpg", gender: "male", famname:"Идиков", surname:"Батырмурзаевич", city:"", date:"", description:""  },
+    { id: 350, fid: 348, mid: 326, pids: [354], name: "Иманмурза", title: "", img: "images/man.jpg", gender: "male", famname:"Идиков", surname:"Батырмурзаевич", city:"", date:"", description:""  },
+    { id: 351, fid: 348, mid: 326, pids: [], name: "Роза", title: "", img: "images/th/rosa.jpg", gender: "female", famname:"Идикова", surname:"Батырмурзаевна", city:"г.Хасавюрт", date:"1951-01-10", description:""  },
+
+    { id: 352, pids: [349], name: "Камиля", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 353, fid: 349, mid: 352, pids: [], name: "Арсен", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Салимханович", city:"", date:"", description:""  },
+
+    { id: 354, pids: [350], name: "Халжат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 355, fid: 350, mid: 354, pids: [], name: "Лайла", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Иманмурзаевна", city:"", date:"", description:""  },
+
+    { id: 360, pids: [292], name: "Раиса", title: "", img: "images/woman.jpg", gender: "female", famname:"Лачинова", surname:"", city:"г.Хасавюрт", date:"1956-12-04", description:""  },
+    { id: 361, fid: 292, mid: 360, pids: [], name: "Зубайдат", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Алимсолтановна", city:"", date:"", description:""  },
+    { id: 362, fid: 292, mid: 360, pids: [], name: "Багадат", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Алимсолтановна", city:"", date:"", description:""  },
+    { id: 363, fid: 292, mid: 360, pids: [], name: "Вагидат", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Алимсолтановна", city:"", date:"", description:""  },
+    { id: 364, fid: 292, mid: 360, pids: [], name: "Саудат", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Алимсолтановна", city:"", date:"", description:""  },
+
+    { id: 365, pids: [293], name: "Вазипат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""  },
+    { id: 366, fid: 293, mid: 365, pids: [], name: "Гасан", title: "", img: "images/man.jpg", gender: "male", famname:"Карсаков", surname:"Надирсолтанович", city:"", date:"", description:""  },
+    { id: 367, fid: 293, mid: 365, pids: [], name: "Гюльзахра", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Надирсолтановна", city:"", date:"", description:""  },
+    { id: 368, fid: 293, mid: 365, pids: [], name: "Нурсият", title: "", img: "images/woman.jpg", gender: "female", famname:"Карсакова", surname:"Надирсолтановна", city:"", date:"", description:""  },
+
+    { id: 369, pids: [294], name: "Гасан", title: "", img: "images/man.jpg", gender: "male", famname:"Бийбулатов", surname:"Ахмедович", city:"г.Хасавюрт", date:"1958-02-17", description:""  },
+    { id: 370, fid: 369, mid: 294, pids: [], name: "Дженнет", title: "", img: "images/woman.jpg", gender: "female", famname:"Бийбулатова", surname:"Гасановна", city:"г.Хасавюрт", date:"1985-04-10", description:""  },
+    { id: 371, fid: 369, mid: 294, pids: [], name: "Асият", title: "", img: "images/woman.jpg", gender: "female", famname:"Бийбулатова", surname:"Гасановна", city:"г.Хасавюрт", date:"1988-03-18", description:""  },
+    { id: 372, fid: 369, mid: 294, pids: [], name: "Микаил", title: "", img: "images/man.jpg", gender: "male", famname:"Бийбулатов", surname:"Гасанович", city:"г.Хасавюрт", date:"1990-07-15", description:""  },
+    
+    //Явбатырские
+    { id: 374, fid: 105,  name: "Джаным", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 375, mid: 374,  name: "Яраш", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 376, fid: 105,  name: "Бюбюшюм", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 377, mid: 376,  name: "Рашув", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 378, mid: 376,  name: "Къачакъ", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 379, fid: 378,  name: "Наида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 380, fid: 378,  name: "Аида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+
+    //Ханбатырские
+    // { id: 20, fid: 18, mid: 19, name: "Юнус", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"1912-01-01", description:""  },
+    // { id: 21, fid: 18, mid: 19, name: "Абусалам", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"", description:""  },
+    // { id: 22, fid: 18, mid: 19, name: "Абдуламит", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"1924-01-01", description:""  },
+    // { id: 23, fid: 18, mid: 19, name: "Вагъит", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Ханбатырович", city:"", date:"", description:""  },
+    // { id: 24, fid: 18, mid: 19, name: "Калимат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"", date:"1918-01-01", description:""  },
+    // { id: 102, fid: 18, mid: 19, name: "Маржанат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"", date:"1938-05-15", description:""  },
+    // { id: 103, fid: 18, mid: 19, name: "Рабат", title: "", img: "images/kid.jpg", gender: "female", famname:"Сабанчиева", surname:"Ханбатыровна", city:"", date:"1930-01-01", description:""  },
+    //Юнусовские
+    { id: 381, fid: 20,  name: "Бадия", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Юнусовна", city:"", date:"1945-01-01", description:""   },
+    { id: 382, mid: 381,  name: "Бурлият", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 383, mid: 381,  name: "Уллубий", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+
+    { id: 384, fid: 20, pids:[385], name: "Махмут", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Юнусович", city:"", date:"1949-01-01", description:""   },
+    { id: 385, pids:[384],  name: "Зумрут", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 386, fid: 384, mid: 385, name: "Альфия", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Махмутовна", city:"", date:"", description:""   },
+    { id: 387, fid: 384, mid: 385, name: "Зульфия", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Махмутовна", city:"", date:"", description:""   },
+    { id: 388, fid: 384, mid: 385, name: "Эльмурат", title: "", img: "images/man.jpg", gender: "female", famname:"Сабанчиев", surname:"Махмутовна", city:"", date:"", description:""   },
+
+    { id: 389, fid: 20, pids:[390], name: "Джавгарат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Юнусовна", city:"", date:"1951-01-01", description:""   },
+    { id: 390, pids:[389], name: "Дагир", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    { id: 391, fid: 390, mid: 389, name: "Марьям", title: "", img: "images/woman.jpg", gender: "female", famname:"Дагировна", surname:" ", city:"", date:"", description:""   },
+    { id: 392, fid: 390, mid: 389, name: "Фатима", title: "", img: "images/woman.jpg", gender: "female", famname:"Дагировна", surname:" ", city:"", date:"", description:""   },
+
+    { id: 393, fid: 20, pids:[394], name: "Юлдуз", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Юнусовна", city:"", date:"1954-01-01", description:""   },
+    { id: 394, pids:[393], name: "Гъамит", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+
+    { id: 395, fid: 20, pids:[396], name: "Саид", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Юнусович", city:"", date:"1957-01-01", description:""   },
+    { id: 396, pids:[395],  name: "Маккахан", title: "", img: "images/woman.jpg", gender: "female", famname:"Абуева", surname:" ", city:"", date:"1957-01-01", description:""   },
+    { id: 397, fid: 395, mid: 396, name: "Аскер", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Саидович", city:"", date:"1981-01-01", description:""   },
+    { id: 397, fid: 395, mid: 396, name: "Альберт", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Саидович", city:"", date:"1984-01-01", description:""   },
+    { id: 398, fid: 395, mid: 396, name: "Камияла", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Саидовна", city:"", date:"1989-01-01", description:""   },
+
+    { id: 399, fid: 20, pids:[400], name: "Мюхют", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Юнусович", city:"", date:"1962-01-01", description:""   },
+    { id: 400, pids:[399], name: "Сайлав", title: "", img: "images/woman.jpg", gender: "female", famname:"Исакова", surname:"", city:"", date:"1962-01-01", description:""   },
+    { id: 401, fid: 399, mid: 400, name: "Артур", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Мюхютович", city:"", date:"", description:""   },
+    { id: 402, fid: 399, mid: 400, name: "Рабат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Мюхютовна", city:"", date:"", description:""   },
+    { id: 403, fid: 399, mid: 400, name: "Рая", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Мюхютовна", city:"", date:"", description:""   },
+
+    //Абдуламитовские
+     { id: 404, pids: [22],  name: "Белахан", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"1928-01-01", description:""   },
+
+     { id: 405, fid: 22, mid: 404, pids: [406], name: "Хава", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Абдуламитовна", city:"", date:"1956-01-01", description:""   },
+     { id: 406, pids: [405],  name: "Солтан", title: "", img: "images/man.jpg", gender: "male", famname:"Исаков", surname:"", city:"", date:"1956-01-01", description:""   },
+     { id: 407, fid: 406, mid: 405, name: "Мажитхан", title: "", img: "images/man.jpg", gender: "male", famname:"Исаков", surname:"Солтанович", city:"", date:"", description:""   },
+     { id: 408, fid: 406, mid: 405, name: "Муъминат", title: "", img: "images/woman.jpg", gender: "female", famname:"Исаков", surname:"Солтановна", city:"", date:"", description:""   },
+     { id: 409, fid: 406, mid: 405, name: "Бела", title: "", img: "images/woman.jpg", gender: "female", famname:"Исаков", surname:"Солтановна", city:"", date:"", description:""   },
+
+     { id: 410, fid: 22, mid: 404, pids: [411], name: "Румия", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Абдуламитовна", city:"", date:"1960-01-01", description:""   },
+     { id: 411, pids: [410],  name: "Абдулбасыр", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 412, fid: 411, mid: 410, name: "Зюльмира", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Абдулбасыровна", city:"", date:"", description:""   },
+
+     { id: 413, fid: 22, mid: 404, pids: [], name: "Рупия", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Абдуламитовна", city:"", date:"1962-01-01", description:""   },
+     
+     { id: 414, fid: 22, mid: 404, pids: [], name: "Зоя", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Абдуламитовна", city:"", date:"1963-01-01", description:""   },
+
+     { id: 415, fid: 22, mid: 404, pids: [416], name: "Мавлет", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Абдуламитович", city:"", date:"1966-01-01", description:""   },
+     { id: 416, pids:[415], name: "Рупуш", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"1967-01-01", description:""   },
+     { id: 417, fid: 415, mid: 416, name: "Амир", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Мавлетович", city:"", date:"1994-01-01", description:""   },
+     { id: 418, fid: 415, mid: 416, name: "Амин", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Мавлетович", city:"", date:"1996-01-01", description:""   },
+
+     { id: 419, fid: 22, mid: 404, pids: [420], name: "Хапид", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Абдуламитович", city:"", date:"1969-01-01", description:""   },
+     { id: 420, pids:[419], name: "Патимат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 421, fid: 419, mid: 420, name: "Абдуламит", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Хапидович", city:"", date:"", description:""   },
+
+     { id: 422, fid: 22, mid: 404, pids: [423], name: "Алыпкъач", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Абдуламитович", city:"", date:"", description:""   },
+     { id: 423, pids:[422], name: "Эльмира", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 424, fid: 422, mid: 423, name: "Ибадат", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Алыпкъачевна", city:"", date:"", description:""   },
+
+     //Калиматовские
+     { id: 425, pids:[23], name: "Джунай", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"", city:"", date:"", description:""   },
+     { id: 426, fid: 425, mid: 23, pids: [], name: "Хансолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Джунаевич", city:"", date:"", description:""   },
+     { id: 427, fid: 425, mid: 23, pids: [428], name: "Солтан", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Джунаевич", city:"", date:"1954-01-01", description:""   },
+     { id: 428, pids:[427], name: "Аминат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"1956-01-01", description:""   },
+
+     { id: 429, fid: 427, mid: 428, pids: [], name: "Юсуп", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Солтанович", city:"", date:"1976-01-01", description:""   },
+     { id: 430, fid: 429, pids: [], name: "Джунай", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Юсупович", city:"", date:"1998-01-01", description:""   },
+     { id: 431, fid: 429, pids: [], name: "Калимат", title: "", img: "images/woman.jpg", gender: "female", famname:"Джанмурзаева", surname:"Юсуповна", city:"", date:"2002-01-01", description:""   },
+     
+
+     { id: 432, fid: 427, mid: 428, pids: [433], name: "Муслим", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Солтанович", city:"", date:"1978-01-01", description:""   },
+     { id: 433, pids:[432], name: "Наргида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 434, fid: 432, mid: 433, pids: [], name: "Наим", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Муслимович", city:"", date:"1998-01-01", description:""   },
+     { id: 435, fid: 432, mid: 433, pids: [], name: "Наиля", title: "", img: "images/woman.jpg", gender: "female", famname:"Джанмурзаева", surname:"Муслимовна", city:"", date:"1998-01-01", description:""   },
+
+     { id: 436, fid: 427, mid: 428, pids: [], name: "Салим", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Солтанович", city:"", date:"1980-01-01", description:""   },
+
+     { id: 437, fid: 427, mid: 428, pids: [438], name: "Тимур", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Солтанович", city:"", date:"", description:""   },
+     { id: 438, pids:[437], name: "Айна", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+
+     { id: 439, fid: 427, mid: 428, pids: [], name: "Хансолтан", title: "", img: "images/man.jpg", gender: "male", famname:"Джанмурзаев", surname:"Солтанович", city:"", date:"1986-01-01", description:""   },
+
+
+     { id: 440, fid: 425, mid: 23, pids: [441], name: "Хадия", title: "", img: "images/woman.jpg", gender: "female", famname:"Джанмурзаева", surname:"Джунаевна", city:"", date:"1956-01-01", description:""   },
+     { id: 441,  pids: [440], name: "Батыр", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 442, fid: 441, mid: 440, pids: [443], name: "Эльбрус", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Батырович", city:"", date:"", description:""   },
+     { id: 443,  pids: [442], name: "Гульджанат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 444, fid: 442, mid: 443, pids: [], name: "Айбике", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+
+     { id: 445, fid: 425, mid: 23, pids: [446], name: "Минахан", title: "", img: "images/woman.jpg", gender: "female", famname:"Джанмурзаев", surname:"Джунаевна", city:"", date:"1962-01-01", description:""   },
+     { id: 446,  pids: [445], name: "Дагир", title: "", img: "images/man.jpg", gender: "male", famname:"Эльдаров", surname:"", city:"", date:"1962-01-01", description:""   },
+     { id: 447, fid: 446, mid: 445, pids: [], name: "Зуля", title: "", img: "images/woman.jpg", gender: "female", famname:"Эльдарова", surname:"Дагировна", city:"", date:"1985-01-01", description:""   },
+     { id: 448,  mid: 447, pids: [], name: "Джамалдин", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"2008-01-01", description:""   },
+     { id: 449,  fid: 446, mid: 445, pids: [], name: "Батыр", title: "", img: "images/man.jpg", gender: "male", famname:"Эльдаров", surname:"Дагирович", city:"", date:"1992-01-01", description:""   },
+     { id: 450,  fid: 449, pids: [], name: "Хабиб", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Эльдаров", city:"Батырович", date:"2025-01-01", description:""   },
+     { id: 451,  fid: 446, mid: 445, pids: [], name: "Дина", title: "", img: "images/woman.jpg", gender: "female", famname:"Эльдарова", surname:"Дагировна", city:"", date:"1990-01-01", description:""   },
+
+     //Маржанатовские
+     { id: 452,  pids: [24], name: "Амирхан", title: "", img: "images/man.jpg", gender: "male", famname:"Алиев", surname:"", city:"", date:"", description:""   },
+     
+     { id: 453, fid: 452, mid: 24, pids: [454], name: "Эльмира", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Амирхановна", city:"", date:"1960-01-01", description:""   },
+     { id: 454, pids: [453], name: "Гасан", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"1960-01-01", description:""   },
+     { id: 455, fid: 454, mid: 453, pids: [], name: "Альбина", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Гасановна", city:"", date:"1983-01-01", description:""   },
+     { id: 456, fid: 454, mid: 453, pids: [], name: "Асиль", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"Гасановна", city:"", date:"1985-01-01", description:""   },
+     { id: 457, fid: 454, mid: 453, pids: [], name: "Гаджимурат", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"Гасанович", city:"", date:"1997-01-01", description:""   },
+
+     { id: 458, fid: 452, mid: 24, pids: [459], name: "Майса", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Амирхановна", city:"", date:"1962-01-01", description:""   },
+     { id: 459, pids: [458], name: "Аймурза", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 460, fid: 459, mid: 458, pids: [461], name: "Азамат", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"1991-01-01", description:""   },
+     { id: 461, pids: [460], name: "Альбина", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 462, fid: 460, mid: 461, pids: [], name: "Исмаил", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"2023-01-01", description:""   },
+
+     { id: 463, fid: 452, mid: 24, pids: [464], name: "Нариман", title: "", img: "images/man.jpg", gender: "male", famname:"Алиев", surname:"Амирханович", city:"", date:"1964-01-01", description:""   },
+     { id: 464, pids: [463], name: "Пийха", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 465, fid: 463, mid: 461, pids: [], name: "Бурлият", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Наримановна", city:"", date:"1990-01-01", description:""   },
+     { id: 466, fid: 463, mid: 461, pids: [], name: "Нурьяна", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Наримановна", city:"", date:"", description:""   },
+     
+     { id: 467, fid: 452, mid: 24, pids: [468], name: "Руслан", title: "", img: "images/man.jpg", gender: "male", famname:"Алиев", surname:"Амирханович", city:"", date:"1968-01-01", description:""   },
+     { id: 468, pids: [467], name: "Джаминат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 469, fid: 467, mid: 468, pids: [], name: "Бийке", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Руслановна", city:"", date:"", description:""   },
+     { id: 470, fid: 467, mid: 468, pids: [], name: "Гульяна", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Руслановна", city:"", date:"", description:""   },
+     { id: 471, fid: 467, mid: 468, pids: [], name: "Таймасхан", title: "", img: "images/woman.jpg", gender: "female", famname:"Алиева", surname:"Русланович", city:"", date:"2009-01-01", description:""   },
+
+     //Вагъитовские
+     { id: 472, pids: [103], name: "Зубайдат", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"1940-01-01", description:""   },
+     { id: 473, fid: 103, mid: 472, pids: [], name: "Арсен", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Вагъитович", city:"", date:"", description:""   },
+     { id: 474, fid: 103, mid: 472, pids: [475], name: "Мадина", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Вагъитовна", city:"", date:"1960-01-01", description:""   },
+     { id: 475, pids: [474], name: "Руслан", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 476, fid: 103, mid: 472, pids: [477], name: "Даниял", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Вагъитович", city:"", date:"1966-01-01", description:""   },
+     { id: 477, pids: [476], name: "Света", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:"", city:"", date:"", description:""   },
+     { id: 478, fid: 476, mid: 477, pids: [], name: "Дженнет", title: "", img: "images/woman.jpg", gender: "female", famname:"Сабанчиева", surname:"Данияловна", city:"", date:"1994-01-01", description:""   },
+     { id: 479, fid: 476, mid: 477, pids: [], name: "Абсалим", title: "", img: "images/man.jpg", gender: "male", famname:"Сабанчиев", surname:"Даниялович", city:"", date:"1998-01-01", description:""   },
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+
+     
+    
+
+
+
+    
+
+    // { id: 115, pids: [118], fid: 111, mid: 112,  name: "Эмма", title: "", img: "images/th/emma.jpg", gender: "female", famname:"Абдурахманова", surname:"Бадировна", city:"", date:"", description:""   },
+    // { id: 116, pids: [113],  name: "Байрам-къыз", title: "", img: "images/th/bairamkiz.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    // { id: 117, pids: [114],  name: "Наида", title: "", img: "images/woman.jpg", gender: "female", famname:"", surname:" ", city:"", date:"", description:""   },
+    // { id: 118, pids: [115],  name: "Батдалов", title: "", img: "images/man.jpg", gender: "male", famname:"", surname:" ", city:"", date:"", description:""   },
+    // { id: 119, fid: 113, mid: 116,  name: "Вадим", title: "", img: "images/th/vadim.jpg", gender: "male", famname:"Абдурахманов", surname:"Надаевич", city:"", date:"", description:""   },
+    // { id: 120, fid: 113, mid: 116,  name: "Болат", title: "", img: "images/th/bulatabd.jpg", gender: "male", famname:"Абдурахманов", surname:"Надаевич", city:"", date:"", description:""   },
+    // { id: 121, fid: 113, mid: 116,  name: "Татув", title: "", img: "images/th/tatu.jpg", gender: "female", famname:"Абдурахманов", surname:"Надаевна", city:"", date:"", description:""   },
+    // { id: 122, fid: 118, mid: 115,  name: "Мурат", title: "", img: "images/man.jpg", gender: "male", famname:"Батдалов", surname:" ", city:"", date:"", description:""   },
+    // { id: 123, fid: 118, mid: 115,  name: "Мадина", title: "", img: "images/woman.jpg", gender: "female", famname:"Батдалова", surname:" ", city:"", date:"", description:""   },
+
+
+
+
+
+];
+ 
+nodes.forEach(function(item) {
+  item.fullName = item.famname+' '+item.name + ' ' + item.surname;
+});
+
+// FamilyTree.templates.john.field_5 = '<text data-width="auto" data-text-overflow="multiline-4-ellipsis" style="font-size: 30px;" fill="#fff" x="10" y="28" text-anchor="start">{val}</text>';
+
+FamilyTree.elements.myTextArea = function (data, editElement, minWidth, readOnly) {
+    var id = FamilyTree.elements.generateId();
+    var value = data[editElement.binding];
+    if (value == undefined) value = '';
+    if (readOnly && !value) {
+        return {
+            html: ''
+        };
+    }
+    var rOnlyAttr = readOnly ? 'readonly' : '';
+    var rDisabledAttr = readOnly ? 'disabled' : '';
+    return {
+        html: `<label for="${id}">${editElement.label}</label>
+                      <i ${rDisabledAttr} ${rOnlyAttr} id="${id}" name="${id}" style="padding:10px; width: 100%;height: 100px;" data-binding="${editElement.binding}">${value}</i>`,
+        id: id,
+        value: value
+    };
+
+};
+ 
+var chart = new FamilyTree(document.getElementById("tree"), {
+    mouseScrool: FamilyTree.none,
+    siblingSeparation: 120,
+    template: 'john',
+    nodes:nodes,
+    //roots:[10],
+    nodeBinding: {
+        field_0: "name",
+        field_1: "title",
+        field_2: "surname",
+        img_0: "img",
+    },
+    editForm: {
+      buttons:  {
+            edit: null,
+            share: null,
+            pdf: null,
+        },
+      readOnly: 1,
+      generateElementsFromFields: false,
+        elements: [
+            { type: 'textbox', label: 'Полное имя', binding: 'fullName' }, 
+            { type: 'textbox', label: 'Место рождения', binding: 'city' }, 
+            { type: 'date', label: 'Дата рождения', binding: 'date' },  
+            { type: 'myTextArea', label: '', binding: 'description' },   
+        ]
+    },
+    mouseScrool: FamilyTree.action.zoom,
+});
+</script> 
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    /* background: linear-gradient(120deg, #f0f4ff 0%, #eafafc 100%); */
+    background: linear-gradient(120deg, #f5e4c3 0%, #f9faf2 80%);
+    color: #20232a;
+    margin: 0;
+}
+
+.container {
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 20px 0 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.back-link {
+    text-decoration: none;
+    color: #a03d04;
+    font-size: 1.2em;
+    margin-right: 24px;
+    transition: color 0.2s;
+}
+.back-link:hover {
+    color: #e03805;
+    /* color: #1C4570;*/
+} 
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0;
+}
+
+/* --- Галерея превью --- */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 18px;
+    max-width: 690px;
+    margin: 30px auto 20px auto;
+}
+.gallery .thumb {
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #b4d4ef44;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+.gallery .thumb:hover {
+    transform: scale(1.04);
+    box-shadow: 0 4px 16px #83b7f999;
+}
+
+/* --- Lightbox --- */
+.lightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background: rgba(33, 48, 65, 0.82);
+    animation: fadeInBox 0.3s;
+}
+@keyframes fadeInBox {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Фиксированный размер лайтбокса */
+.lightbox-content {
+    position: relative;
+    background: #ce4f4f;
+    border-radius: 16px;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 8px 48px #1b314e3b;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+#lightbox-img-container {
+    position: relative;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+}
+#lightbox-img {
+    max-width: 95%;
+    max-height: 96%;
+    object-fit: contain;
+    background: #e0ebfa;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px #0002;
+    display: block;
+    margin: 0 auto;
+}
+#overlay-catch {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.lightbox-btn {
+    position: absolute;
+    background: #fff;
+    border: none;
+    color: #2179e7;
+    font-size: 2em;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.98;
+    box-shadow: 0 2px 12px #0082e244;
+    transition: background 0.2s, color 0.2s;
+    z-index: 10;
+}
+.close-btn {
+    top: 16px;
+    right: 18px;
+    font-size: 2.1em;
+}
+.left-btn {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.right-btn {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.lightbox-btn:hover {
+    background: #2179e7;
+    color: #fff;
+}
+
+.caption {
+    width: 100%;
+    min-height: 49px;
+    max-height: 65px;
+    font-size: 1.08em;
+    text-align: center;
+    color: #485c70;
+    background: #f9fafd;
+    border-top: 1px solid #e4e5ed;
+    padding: 9px 8px 3px 8px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+
+@media (max-width: 860px) {
+    .lightbox-content {
+        width: 98vw;
+        height: 60vw;
+        min-height: 230px;
+        max-width: 99vw;
+        max-height: 85vh;
+    }
+}
+@media (max-width: 500px) {
+    .lightbox-content {
+        width: 97vw;
+        height: 79vw;
+        min-height: 180px;
+    }
+    .lightbox-btn {width: 32px; height: 32px; font-size: 1.2em;}
+    .close-btn {font-size: 1.5em;}
+    .caption {font-size: 0.98em; min-height: 26px;}
+} 
+
+
+/* Стиль галереи вне лайтбокса */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 18px;
+    max-width: 690px;
+    margin: 30px auto 20px auto;
+}
+.gallery .thumb {
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #b4d4ef44;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+.gallery .thumb:hover {
+    transform: scale(1.04);
+    box-shadow: 0 4px 16px #83b7f999;
+}

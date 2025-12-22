@@ -1,0 +1,36 @@
+/*CSS*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    overflow: hidden;
+}
+
+#tree {
+    width: 100%;
+    height: 100%;
+}
+
+/* .bft-input input[readonly] {
+        font-size: 35px !important;
+    } */
+
+@media (max-width: 600px) {
+    .bft-edit-form {
+        width: 100%; /* На мобильных кнопка займет всю ширину */
+        /* height: 50%;
+        max-height: 50%; */
+        max-width: 100%; /* Чтобы не вылезти за родителя */
+        /* min-width: 100%; */
+        input::-webkit-date-and-time-value{
+            padding-top: 3%;
+            text-align: left;
+        }
+    }
+
+    
+}
+
+
